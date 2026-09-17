@@ -1,0 +1,26 @@
+{
+  "safe_root_hall_pruned": [
+    175,
+    176,
+    177,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327
+  ],
+  "count": 20,
+  "note": "all targets, relaxation under sum and lower bounds"
+}

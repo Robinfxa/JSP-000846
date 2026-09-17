@@ -1,0 +1,72 @@
+{
+  "claim": "m(41)=47, computer-assisted proof replay; not yet Lean-formalized",
+  "labelled_topologies": 16824,
+  "total_topology_classes": 1236,
+  "form_count_exclusions": 908,
+  "exclusion_certificates_verified": 328,
+  "certificate_states_verified": 20557,
+  "rows": [
+    {
+      "t": 4,
+      "labelled": 6,
+      "dihedral_classes": 2,
+      "pruned_by_form_count": 2,
+      "certificates_checked": 0
+    },
+    {
+      "t": 5,
+      "labelled": 222,
+      "dihedral_classes": 28,
+      "pruned_by_form_count": 28,
+      "certificates_checked": 0
+    },
+    {
+      "t": 6,
+      "labelled": 1581,
+      "dihedral_classes": 153,
+      "pruned_by_form_count": 151,
+      "certificates_checked": 2
+    },
+    {
+      "t": 7,
+      "labelled": 4410,
+      "dihedral_classes": 333,
+      "pruned_by_form_count": 289,
+      "certificates_checked": 44
+    },
+    {
+      "t": 8,
+      "labelled": 5880,
+      "dihedral_classes": 417,
+      "pruned_by_form_count": 285,
+      "certificates_checked": 132
+    },
+    {
+      "t": 9,
+      "labelled": 3780,
+      "dihedral_classes": 224,
+      "pruned_by_form_count": 121,
+      "certificates_checked": 103
+    },
+    {
+      "t": 10,
+      "labelled": 945,
+      "dihedral_classes": 79,
+      "pruned_by_form_count": 32,
+      "certificates_checked": 47
+    }
+  ],
+  "upper_bound": {
+    "n": 41,
+    "edges": 47,
+    "cycle_witnesses_checked": 39,
+    "status": "PASS"
+  },
+  "result": "COMPUTATIONAL_PROOF_REPLAY_PASS",
+  "seconds": 11.171428960999947,
+  "scope_limits": [
+    "The mathematical reduction and checker are not formalized in Lean.",
+    "No independent external review or worldwide priority certification is claimed.",
+    "This resolves the finite target, not the asymptotic Erd\u0151s #1016 problem."
+  ]
+}

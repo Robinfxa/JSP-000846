@@ -1,0 +1,19 @@
+{
+  "date_utc": "2026-09-17T08:52:18.126544+00:00",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "native_z3_version": [
+    "4.13.3.0"
+  ],
+  "z3_instances": 328,
+  "z3_counts": {
+    "UNSAT": 328
+  },
+  "input_hashes_verified": 328,
+  "deterministic_certificate_regeneration": "328/328 identical SHA256",
+  "input_zip_sha256": "6225fbc684eaecf45d4f66aef7d934a7bbddd5c1abca29e9a4155cfe063b4687",
+  "lean_status": "NOT_FORMALIZED",
+  "external_review": "NOT_PERFORMED",
+  "priority": "NOT_ESTABLISHED"
+}

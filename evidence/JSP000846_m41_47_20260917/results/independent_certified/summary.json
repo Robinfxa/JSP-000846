@@ -1,0 +1,7 @@
+{
+  "counts": {
+    "UNSAT": 328
+  },
+  "wall_seconds": 6.621835353000051,
+  "proof_status": "EXHAUSTIVE_COMPUTATION_NOT_LEAN"
+}

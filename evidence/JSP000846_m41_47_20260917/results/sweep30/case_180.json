@@ -1,0 +1,13 @@
+{
+  "instance": "case_180_t9.smt2",
+  "input_sha256": "0301ee026cc1a3e78e63d2a29c05396d17bdd71e9dc82e827eda11c8a8445aef",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "UNSAT",
+  "wall_seconds": 6.519409256000017,
+  "values": null,
+  "raw_output": "unsat\n",
+  "proof_status": "NOT_FORMALIZED",
+  "index": 180
+}

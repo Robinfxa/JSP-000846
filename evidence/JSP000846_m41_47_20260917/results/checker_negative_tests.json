@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "mutation": "missing_root",
+      "result": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "mutation": "false_root_leaf",
+      "result": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "mutation": "illegal_split",
+      "result": "REJECTED_AS_REQUIRED"
+    },
+    {
+      "mutation": "missing_reachable_child",
+      "result": "REJECTED_AS_REQUIRED"
+    }
+  ]
+}

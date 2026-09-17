@@ -1,0 +1,22 @@
+{
+  "instance": "control_fixed_template_40.smt2",
+  "input_sha256": "4ac316ba58addb6a96e2a2919accf7a70445269f3a76ccbbdb74047975bfd600",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "SAT",
+  "wall_seconds": 0.01976319599999954,
+  "values": {
+    "x0": 5,
+    "x1": 1,
+    "x2": 1,
+    "x3": 1,
+    "x4": 1,
+    "x5": 2,
+    "x6": 2,
+    "x7": 17,
+    "x8": 10
+  },
+  "raw_output": "sat\n((x0 5)\n (x1 1)\n (x2 1)\n (x3 1)\n (x4 1)\n (x5 2)\n (x6 2)\n (x7 17)\n (x8 10))\n",
+  "proof_status": "NOT_FORMALIZED"
+}

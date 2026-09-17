@@ -1,0 +1,13 @@
+{
+  "instance": "case_284_t10.smt2",
+  "input_sha256": "4d27a79245018fcb7d31afd41ad6f3cf0f831e1abcbef54380704f82130a2834",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "UNSAT",
+  "wall_seconds": 4.385000056000081,
+  "values": null,
+  "raw_output": "unsat\n",
+  "proof_status": "NOT_FORMALIZED",
+  "index": 284
+}

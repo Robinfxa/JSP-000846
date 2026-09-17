@@ -1,0 +1,22 @@
+{
+  "checked": 1,
+  "status": "PASS",
+  "seconds": 0.08473052099998313,
+  "total_states": 243,
+  "results": [
+    {
+      "certificate": "priority_dag.json",
+      "n": 41,
+      "t": 9,
+      "status": "VERIFIED_UNSAT",
+      "affine_forms": 45,
+      "states_in_file": 243,
+      "states_replayed": 243,
+      "leaves": 224,
+      "splits": 19,
+      "child_links_checked": 246,
+      "seconds": 0.08450935500002288,
+      "formalization": "NOT_LEAN"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "UNSAT",
+  "t": 8,
+  "n": 41,
+  "cycle_count": 42,
+  "forms": 42,
+  "nodes": 122,
+  "cache_hits": 5,
+  "cache_size": 117,
+  "domain_prunes": 0,
+  "capacity_prunes": 109,
+  "complete_assignments": 0,
+  "seconds": 0.00616605,
+  "weights": [],
+  "index": 165
+}

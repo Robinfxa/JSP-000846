@@ -1,0 +1,9 @@
+{
+  "scope": "code cross-checks, not Lean proofs",
+  "all_topologies_dfs_vs_xor": 1236,
+  "random_C41_graphs_full_DFS_vs_compressed_XOR": 200,
+  "random_dihedral_invariance": 200,
+  "known_regressions": "PASS",
+  "parallel_edge_regression": "PASS",
+  "seconds": 1.524565722999995
+}

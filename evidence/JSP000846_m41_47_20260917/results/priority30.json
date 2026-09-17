@@ -1,0 +1,12 @@
+{
+  "instance": "priority_known_topology_free_weights_41.smt2",
+  "input_sha256": "70416bdc87987a6b31a388b795d78d91be0135b6b2dd6ad38953a574449157fb",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "UNSAT",
+  "wall_seconds": 8.852994385000002,
+  "values": null,
+  "raw_output": "unsat\n",
+  "proof_status": "NOT_FORMALIZED"
+}

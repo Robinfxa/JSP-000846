@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this repository's exact version and commit when using the research software or evidence."
+type: software
+title: "Computer-assisted determination of m(41)=47 for minimal pancyclic graphs"
+authors:
+  - name: "Robinfxa"
+    website: "https://github.com/Robinfxa"
+version: "v0.1.0-research-result"
+date-released: 2026-09-17
+repository-code: "https://github.com/Robinfxa/JSP-000846"
+url: "https://github.com/Robinfxa/JSP-000846/releases/tag/v0.1.0-research-result"
+abstract: >-
+  Computer-assisted exact finite result for n=41, with source code,
+  exclusion certificates, explicit upper-bound witness, and replay scripts.
+  Lean formalization, independent external review, and final literature/priority
+  audit remain pending. No full asymptotic solution or prize claim is made.
+  Robinfxa identifies the publishing GitHub account; no additional academic
+  authorship is assigned. Licensing review remains pending.
+keywords:
+  - pancyclic graphs
+  - computational evidence
+  - Erdos Problem 1016
+  - JSP-000846

@@ -1,0 +1,13 @@
+{
+  "instance": "case_038_t7.smt2",
+  "input_sha256": "7679c3ff59665c82f5b4a86fa1dbaf34edb06da7001826a3dcab774da7cab5d5",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "UNSAT",
+  "wall_seconds": 8.629825566000022,
+  "values": null,
+  "raw_output": "unsat\n",
+  "proof_status": "NOT_FORMALIZED",
+  "index": 38
+}

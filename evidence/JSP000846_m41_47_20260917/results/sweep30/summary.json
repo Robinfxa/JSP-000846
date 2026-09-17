@@ -1,0 +1,12 @@
+{
+  "counts_this_run": {
+    "UNSAT": 328
+  },
+  "completed_this_run": 328,
+  "scheduled": 328,
+  "wall_seconds": 861.4576807289999,
+  "timeout_ms": 30000,
+  "workers": 4,
+  "status": "SWEEP_COMPLETED",
+  "proof_status": "COMPUTATIONAL_ONLY"
+}

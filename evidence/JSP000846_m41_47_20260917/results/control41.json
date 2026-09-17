@@ -1,0 +1,12 @@
+{
+  "instance": "control_fixed_template_41.smt2",
+  "input_sha256": "855b90195588031336a79be80f3373dc0cdc3ee2565edbc22c3f33cee6e6169b",
+  "solver": "4.13.3.0",
+  "library": "libz3.so.4",
+  "timeout_ms": 30000,
+  "status": "UNSAT",
+  "wall_seconds": 0.026176890000002118,
+  "values": null,
+  "raw_output": "unsat\n",
+  "proof_status": "NOT_FORMALIZED"
+}
