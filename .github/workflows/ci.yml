@@ -62,10 +62,10 @@ jobs:
           lake exe cache get
           lake build
 
-      - name: Full Source Rebuild
+      - name: Full Source Rebuild (Memory-Aware DAG Rebuild)
         run: |
           cd formalization
-          python3 rebuild.py --full --jobs 4
+          python3 rebuild.py --full --jobs 3 --memory-mb 3072 --retry-memory-mb 8192
 
       - name: Replay & Kernel Axiom Audit
         run: |

@@ -114,10 +114,10 @@ Choose either Route A (rebuild entirely from source) or Route B (fast replay usi
 
 #### Route A: Full Source Rebuild from Scratch (Zero `.olean` dependencies)
 ```bash
-python3 rebuild.py --full --jobs 8
+python3 rebuild.py --full --jobs 3
 bash replay.sh
 ```
-`rebuild.py` uses dynamic toolchain resolution and parallel DAG level scheduling to compile all 3,574 modules in exact topological dependency order into `JSP846Verified/LeanSrc/`.
+`rebuild.py` uses dynamic toolchain resolution, max 3 parallel workers at 3072 MB, automatic serial single-process retry at 8192 MB for memory-intensive modules (such as `C255.lean`), and DAG level scheduling to compile all 3,574 modules in exact topological dependency order into `JSP846Verified/LeanSrc/`.
 
 #### Route B: Fast Replay via Precompiled Release Closure
 Download `JSP000846_Lean_FULL_m41_eq_47_20260922.zip` from GitHub Release `v0.2.1-formal-proof`, extract into `formalization/`, and execute:

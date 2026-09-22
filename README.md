@@ -54,7 +54,7 @@ lake exe cache get
 lake build
 
 # C1. Option 1: Full source rebuild from scratch (zero .olean files)
-python3 rebuild.py --full --jobs 8
+python3 rebuild.py --full --jobs 3
 bash replay.sh
 
 # C2. Option 2: Fast replay via precompiled binary closure
