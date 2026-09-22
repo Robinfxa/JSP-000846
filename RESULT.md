@@ -1,4 +1,4 @@
-> Publication context (2026-09-22 UTC, v0.2.0-formal-proof): 本仓库已于 2026 年 9 月 22 日完成有限定理 $m(41)=47$ 的完整 Lean 4 形式化证明（根定理 `JSP846Standard.exact_minimum_41_47`，闭包公理仅含 `propext`, `Classical.choice`, `Quot.sound`，无 `sorryAx`）。**特别郑重声明：有限定理 Lean 已完成，但不等于解决完整 JSP-000846 / Erdős #1016 渐近猜想，亦不主张任何奖项申报。** 原始 2026-09-17 阶段性报告保留如下供溯源。复验命令与形式化依赖请参见 [formalization/README.md](formalization/README.md)。
+> Publication context (2026-09-22 UTC, v0.2.1-formal-proof): 本仓库已于 2026 年 9 月 22 日完成有限定理 $m(41)=47$ 的完整 Lean 4 形式化证明（根定理 `JSP846Standard.exact_minimum_41_47`，闭包公理仅含 `propext`, `Classical.choice`, `Quot.sound`，无 `sorryAx`）。**特别郑重声明：有限定理 Lean 已完成，但不等于解决完整 JSP-000846 / Erdős #1016 渐近猜想，亦不主张任何奖项申报。** 原始 2026-09-17 阶段性报告保留如下供溯源。复验命令与形式化依赖请参见 [formalization/README.md](formalization/README.md)。
 
 # JSP-000846：41 点有限目标的求解结果
 
@@ -12,7 +12,7 @@
 
 也就是说，41 个顶点的简单图若要同时含有长度 3、4、…、41 的简单环，至少需要 47 条边，而且存在恰好 47 条边的实例。
 
-证据状态：完整结构清单已重新生成；328 个剩余整数问题已被排除；独立 Python 检查器已重放全部排除证书；Z3 对原始 328 个模型也全部返回 UNSAT；**Lean 4 形式化证明（3,574 个模块）已全量闭合，根定理 `JSP846Standard.exact_minimum_41_47` 经 Lean 内核与公理审计完全通过**。
+证据状态：完整结构清单已重新生成；328 个剩余整数问题已被排除；独立 Python 检查器已重放全部排除证书；Z3 对原始 328 个模型也全部返回 UNSAT；**Lean 4 形式化证明（3,574 个冻结清单依赖模块 + 1 个独立公理审计包装模块，共 3,575 个 Lean 源码文件）已全量闭合，根定理 `JSP846Standard.exact_minimum_41_47` 经 Lean 内核与公理审计完全通过**。
 
 **关键边界声明：这只处理原始 Erdős #1016 的有限参数 n=41，有限定理 Lean 已完成，但不等于解决完整 JSP-000846（一般渐近问题），亦未提出奖项主张。**
 

@@ -21,7 +21,7 @@ The supplied proof package combines:
 - **m(41) >= 46**, from standard cycle-space counting: at most 45 edges permit at most 31 nonzero cycle-space elements, fewer than the 39 required cycle lengths.
 - Exclusion of all 46-edge candidates by the classification: 1,236 skeleton classes, 908 excluded by expression capacity and 328 by exclusion certificates.
 - **m(41) <= 47**, from an explicit 47-edge pancyclic witness with 39 cycle certificates.
-- **Machine-checked Lean 4 formalization**: closed proof tree of 3,574 modules with root theorem `JSP846Standard.exact_minimum_41_47 : HasExactMinimum 47`.
+- **Machine-checked Lean 4 formalization**: closed proof tree of 3,574 dependency modules + 1 programmatic axiom audit wrapper (`FinalAudit.lean`, 3,575 total Lean files) with root theorem `JSP846Standard.exact_minimum_41_47 : HasExactMinimum 47`.
 
 Together these give the formal conclusion **m(41) = 47**.
 
@@ -30,7 +30,7 @@ Together these give the formal conclusion **m(41) = 47**.
 - Computer-assisted proof package: available & verified
 - Reproducible certificate checker: available & verified
 - Explicit 47-edge witness: available & verified
-- Lean formalization: **COMPLETED and KERNEL-VERIFIED** (Lean 4.35.0-rc2, Mathlib v4.35.0-rc2, 3,574 modules, 0 `sorryAx`, axioms: `propext`, `Classical.choice`, `Quot.sound`)
+- Lean formalization: **COMPLETED and KERNEL-VERIFIED** (Lean 4.35.0-rc2, Mathlib v4.35.0-rc2, 3,574 frozen manifest dependency modules + 1 programmatic axiom audit wrapper, 0 `sorryAx`, axioms: `propext`, `Classical.choice`, `Quot.sound`)
 - Independent external mathematical review: pending
 - Final literature / global priority audit: pending
 - Justin Sun Prize award status: no award claim is made by this repository
@@ -46,13 +46,19 @@ Requires `elan` with Lean `v4.35.0-rc2`.
 ```bash
 cd formalization
 
-# A. Verify manifest SHA-256 integrity for all 3,574 modules
+# A. Verify manifest SHA-256 integrity (3,574 dependency modules + FinalAudit.lean = 3,575 files)
 python3 verify_manifest.py
 
-# B. Build Lake package
+# B. Build Lake base package
+lake exe cache get
 lake build
 
-# C. Replay root theorem audit and axiom check
+# C1. Option 1: Full source rebuild from scratch (zero .olean files)
+python3 rebuild.py --full --jobs 8
+bash replay.sh
+
+# C2. Option 2: Fast replay via precompiled binary closure
+# (extract JSP000846_Lean_FULL_m41_eq_47_20260922.zip into formalization/)
 bash replay.sh
 ```
 
@@ -94,7 +100,7 @@ This publication checked hashes and byte preservation only; it did not rerun `ch
 
 - [RESULT.md](RESULT.md): supplied Chinese result report, with a publication-context note.
 - [PROOF_NOTE.md](PROOF_NOTE.md): supplied proof dossier, with a publication-context note.
-- [formalization/](formalization/): Lean 4 formalization directory (3,574 modules, Lake package, locked toolchain, records, and verification scripts).
+- [formalization/](formalization/): Lean 4 formalization directory (3,574 frozen manifest dependency modules + 1 programmatic axiom audit wrapper, Lake package, locked toolchain, records, and verification scripts).
 - [Frozen evidence directory](evidence/JSP000846_m41_47_20260917/): all 1,360 original files, with original layout and bytes preserved.
 - [Exclusion certificates](evidence/JSP000846_m41_47_20260917/certificates/): all 328 JSON certificates.
 - [Witness and cycle certificates](evidence/JSP000846_m41_47_20260917/upper_47_certificate.json).
@@ -125,7 +131,7 @@ No license file was supplied in the original package, and ownership/redistributi
 
 ## Citation and public record
 
-- Formal verification release date (UTC): **2026-09-22**. Version: **v0.2.0-formal-proof**.
+- Formal verification correction release date (UTC): **2026-09-22**. Version: **v0.2.1-formal-proof**.
 - Initial research release date (UTC): **2026-09-17**. Version: **v0.1.0-research-result**.
 
-Use [CITATION.cff](CITATION.cff), the exact Git commit, and the [versioned GitHub Release](https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.0-formal-proof) when citing this finite result. GitHub's release publication time records this publication event; it does not establish global mathematical priority. The commit identifier and SHA-256 manifest identify the exact published content.
+Use [CITATION.cff](CITATION.cff), the exact Git commit, and the [versioned GitHub Release](https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.1-formal-proof) when citing this finite result. GitHub's release publication time records this publication event; it does not establish global mathematical priority. The commit identifier and SHA-256 manifest identify the exact published content.

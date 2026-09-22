@@ -29,7 +29,7 @@ for Erdős Problem #1016 / JSP-000846 (minimal edge count of a 41-vertex pancycl
   - `Classical.choice`
   - `Quot.sound`
 - **Sorry Audit:**
-  - Exactly **0** occurrences of `sorry` or `sorryAx` in the proof tree.
+  - Exactly **0** occurrences of `sorry` or `sorryAx` across all Lean sources.
 
 ---
 
@@ -46,7 +46,7 @@ for Erdős Problem #1016 / JSP-000846 (minimal edge count of a 41-vertex pancycl
 ## 3. Toolchain and Locked Dependencies
 
 - **Lean Toolchain:** `leanprover/lean4:v4.35.0-rc2` (locked in `lean-toolchain`)
-- **Lake Configuration:** `lakefile.toml` (`version = "0.2.0"`)
+- **Lake Configuration:** `lakefile.toml` (`version = "0.2.1"`)
 - **Mathlib Revision:** `v4.35.0-rc2` (Git rev: `065356127b1dc0016f66b7283ce0ce2c4055aa55`, locked in `lake-manifest.json` along with 8 transitive dependencies: `plausible`, `LeanSearchClient`, `importGraph`, `proofwidgets`, `aesop`, `Qq`, `batteries`, `Cli`).
 
 ---
@@ -56,36 +56,41 @@ for Erdős Problem #1016 / JSP-000846 (minimal edge count of a 41-vertex pancycl
 ```text
 formalization/
 ├── lean-toolchain            # Lean version pin (v4.35.0-rc2)
-├── lakefile.toml             # Lake package manifest
+├── lakefile.toml             # Lake package manifest (v0.2.1)
 ├── lake-manifest.json        # Pinned transitive dependency lockfile
 ├── Formalization.lean        # Default Lake target
 ├── Formalization/
 │   └── Basic.lean            # Formalization definitions and overview
 ├── JSP846Verified/
-│   └── LeanSrc/              # 3,574 verified Lean source modules
+│   └── LeanSrc/              # 3,575 verified Lean source files:
+│                             #   • 3,574 frozen dependency & root audit modules (BUILD_ORDER.json / MANIFEST.json)
+│                             #   • 1 standalone programmatic axiom audit wrapper (FinalAudit.lean)
 ├── lean -> JSP846Verified/LeanSrc # Convenience symlink
-├── records/                  # 3,297 individual module compilation records
-├── MANIFEST.json             # Source SHA-256 hashes & import provenance
-├── BUILD_ORDER.json          # Dependency-first compilation order
-├── verify_manifest.py        # Independent manifest & SHA-256 integrity verifier
-├── replay.sh                 # Root theorem audit replayer
-└── rebuild.py                # Source rebuild driver
+├── records/                  # 3,297 individual module compilation receipts
+├── MANIFEST.json             # Source SHA-256 hashes & import provenance (3,574 modules)
+├── BUILD_ORDER.json          # Dependency-first compilation order (3,574 modules)
+├── verify_manifest.py        # Independent manifest & SHA-256 integrity verifier (checks all 3,575 files)
+├── rebuild.py                # Deterministic parallel source rebuild driver
+└── replay.sh                 # Root theorem audit replayer
 ```
 
 ---
 
-## 5. Verification and Reproduction
+## 5. Verification and Reproduction Routes
 
-### A. Manifest Integrity Verification
-Verifies that all 3,574 modules exist and match their audited SHA-256 hashes:
+### Step 1: Manifest Integrity Verification
+Verifies that all 3,574 frozen manifest modules and the programmatic axiom-audit wrapper (`FinalAudit.lean`, 3,575 total Lean files) exist and match their audited SHA-256 hashes:
 ```bash
+cd formalization
 python3 verify_manifest.py
 ```
 Expected output:
 ```json
 {
   "status": "MANIFEST_INTEGRITY_PASS",
-  "modules_checked": 3574,
+  "dependency_modules_checked": 3574,
+  "programmatic_axiom_audit_source": "FinalAudit.lean",
+  "total_lean_files_checked": 3575,
   "theorem": "JSP846Standard.exact_minimum_41_47",
   "allowed_axioms": [
     "propext",
@@ -95,26 +100,48 @@ Expected output:
 }
 ```
 
-### B. Lake Environment Build
+### Step 2: Prepare Lake & Mathlib Environment
 ```bash
+lake exe cache get
 lake build
 ```
-Builds the base package and verifies Mathlib linkage.
 
-### C. Root Theorem Replay & Kernel Axiom Audit
+---
+
+### Step 3: Replay & Verification
+
+Choose either Route A (rebuild entirely from source) or Route B (fast replay using precompiled binary asset):
+
+#### Route A: Full Source Rebuild from Scratch (Zero `.olean` dependencies)
+```bash
+python3 rebuild.py --full --jobs 8
+bash replay.sh
+```
+`rebuild.py` uses dynamic toolchain resolution and parallel DAG level scheduling to compile all 3,574 modules in exact topological dependency order into `JSP846Verified/LeanSrc/`.
+
+#### Route B: Fast Replay via Precompiled Release Closure
+Download `JSP000846_Lean_FULL_m41_eq_47_20260922.zip` from GitHub Release `v0.2.1-formal-proof`, extract into `formalization/`, and execute:
 ```bash
 bash replay.sh
 ```
-Executes `FinalRootAudit.lean` and `FinalAudit.lean` in Lake environment, verifying the complete closed chain and checking that only standard axioms are used.
 
-Output summary:
+---
+
+### Step 4: Expected Replay & Kernel Axiom Audit Output
+
 ```text
 === [1/2] Auditing JSP846Standard.exact_minimum_41_47 (FinalRootAudit.lean) ===
 JSP846Standard.exact_minimum_41_47 : JSP846Standard.HasExactMinimum 47
-JSP846Standard.final_statement : ...
+JSP846Standard.final_statement :
+  (∃ G, Nat.card ↑G.edgeSet = 47 ∧ JSP846Standard.Pancyclic G) ∧
+    ∀ (G : SimpleGraph JSP846Standard.V), JSP846Standard.Pancyclic G → 47 ≤ Nat.card ↑G.edgeSet
+'JSP846Standard.exists_pancyclic_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]
 'JSP846Standard.exact_minimum_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP846Standard.final_statement' depends on axioms: [propext, Classical.choice, Quot.sound]
 'JSP846Standard.final_no_46' depends on axioms: [propext, Classical.choice, Quot.sound]
 === [2/2] Checking programmatic axiom assertions (FinalAudit.lean) ===
+JSP846Standard.exact_minimum_41_47 : JSP846Standard.HasExactMinimum 47
+'JSP846Standard.exact_minimum_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]
 'final_type_check' depends on axioms: [propext, Classical.choice, Quot.sound]
 === All root audits PASSED successfully! ===
 ```
