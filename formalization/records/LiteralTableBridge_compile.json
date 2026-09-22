@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T02:37:07.535900+00:00",
+  "module": "LiteralTableBridge",
+  "source_sha256": "37a44fdb710f9b435d1ec4f8614caf97ad66eacc1e1b4cb0cf1ff44b309f85a1",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 15.22951462600031,
+  "stdout": "'JSP846Standard.selectionForm_value' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.literal_cover_of_table' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_of_literal_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

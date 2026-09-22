@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:30:11.280995+00:00",
+  "module": "EightRepBank36",
+  "source_sha256": "af2f2741e61b794c8b5eef33c1fc8f39cd65876719c78cf490c628e3e647f916",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 30.262341844005277,
+  "stdout": "'JSP846Standard.eight_rep_288_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_289_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_290_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_291_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_292_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_293_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_294_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_rep_295_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:32:12.889293+00:00",
+  "module": "SymbolicCycle",
+  "source_sha256": "a3ccd6fedee341b22e2bb23021ee0ee9be857dc209ac1e0b670b8f1d617408e4",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 81.52311323300091,
+  "stdout": "'JSP846Standard.selected_isSymbolicCycle' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

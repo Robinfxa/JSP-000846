@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:11:38.534042+00:00",
+  "module": "NineDecodeNat",
+  "source_sha256": "802f8018480154227033a84130e337cc9b097061511741bc99a9051a0591d371",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 7.606520820991136,
+  "stdout": "'JSP846Standard.nineDecodeNat_toNat' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

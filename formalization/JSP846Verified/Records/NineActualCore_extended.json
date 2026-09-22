@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:10:44.280184+00:00",
+  "module": "NineActualCore",
+  "source_sha256": "30c65d36e23a54de58914e752a4c146db808399c2b477561ab63c6f83e8b85fd",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 12.173055837978609,
+  "stdout": "'JSP846Standard.nineEdgeFin_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_decode_encode' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_encode_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:42:02.575597+00:00",
+  "module": "ArcParity",
+  "source_sha256": "6e1e12f37839edfc8a378d67264e2e57c0c33f0d743edb8a62a583047996b808",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 37.01628725200135,
+  "stdout": "'JSP846Standard.arcBit_eq_scan' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

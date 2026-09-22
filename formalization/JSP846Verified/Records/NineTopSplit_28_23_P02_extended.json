@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T14:00:36.480115+00:00",
+  "module": "NineTopSplit_28_23_P02",
+  "source_sha256": "98727f8d73791fd9039175aa5d4a65e3965c4b70f83a181334f60e30c6680db2",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 72.4815344910021,
+  "stdout": "'JSP846Standard.nineTop_28_23_t18_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_28_23_t19_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_28_23_t20_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_28_23_t21_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_28_23_t22_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

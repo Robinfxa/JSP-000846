@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:57:36.769470+00:00",
+  "module": "SixEndpointClosed",
+  "source_sha256": "405f078cca90d6fdac4165e391f4ce58f660083769217f5c2dd8aa8f000822d6",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 61.74134600200341,
+  "stdout": "'JSP846Standard.six_representatives_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_model_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_six_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover_seven' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion_seven' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

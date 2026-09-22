@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:49:04.366732+00:00",
+  "module": "SevenDecodePermLeft",
+  "source_sha256": "837a78ec3b1baf56008d71d30b9f91f4cbf7924318f2b2f2019a98f62d46f912",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 9.441235614009202,
+  "stdout": "'JSP846Standard.sevenDecodeNat_perm_left' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

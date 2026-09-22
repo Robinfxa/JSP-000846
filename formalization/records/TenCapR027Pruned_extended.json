@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T02:07:36.025508+00:00",
+  "module": "TenCapR027Pruned",
+  "source_sha256": "dd8aeeada1202c696bfe64d766e80e31d566ea2f7e86871737f16d9842145f0a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 74.47552783502033,
+  "stdout": "'JSP846TenCap.R027.small' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846TenCap.R027.rep_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

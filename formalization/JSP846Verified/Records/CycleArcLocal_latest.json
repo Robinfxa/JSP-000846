@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T00:03:32.690104+00:00",
+  "module": "CycleArcLocal",
+  "source_sha256": "c4b2b927724aecb8b874f316e5993d6d5d535fe96d5236aa27604e49c3bc3fb9",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 16.053525929997704,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-compression-o282684o/CycleArcLocal.lean:108:15: warning: This simp argument is unused:\n  Fin.val_mk\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [liftedPosition, dite_eq_left hi, dite_eq_left hs] at hx\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-compression-o282684o/CycleArcLocal.lean:119:15: warning: This simp argument is unused:\n  Fin.val_mk\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [liftedPosition, dite_eq_left hi, dite_eq_right hs] at hx\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'JSP846Standard.cycle_both_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.cycle_ring_step' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.interior_not_chord_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

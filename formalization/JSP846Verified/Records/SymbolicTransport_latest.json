@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:43:03.213289+00:00",
+  "module": "SymbolicTransport",
+  "source_sha256": "5e8c62d206bb0c31077e46a7b8b2cd7fa7facbb1519d88d850a053353e731d40",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 57.741281996997714,
+  "stdout": "'JSP846Standard.CycleRelabel.cycle_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.CycleRelabel.selection_length' depends on axioms: [propext, Quot.sound]\n'JSP846Standard.CycleRelabel.lengths_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,27 @@
+{
+  "case": 263,
+  "module": "ChunkC263_019",
+  "source_sha256": "527ee4a99676aa4f55219b030c35202f559d2e4ae20c0e487ba50432cf580f00",
+  "final": true,
+  "stats": {
+    "states": 344,
+    "forms": 49,
+    "capacity": 196,
+    "missing": 118,
+    "splits": 30,
+    "branches": 343
+  },
+  "certificate_sha256": "5edcb5dc56b250b68c92d422d7ef27e5da6b6529cc826a3ecbcc4f2e1e7aef75",
+  "utc": "2026-09-18T03:23:00.798201+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 68.53777400000399,
+  "stdout": "'JSP846DAG.C263.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "accepted": true
+}

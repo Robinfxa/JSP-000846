@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:14:29.669435+00:00",
+  "module": "NineRepBank14",
+  "source_sha256": "0fd3d243e9d6f1b815604e3c0b4924db4c29aecb9d021ded612313ebeea2db25",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 17.406594083993696,
+  "stdout": "'JSP846Standard.nine_rep_112_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_113_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_114_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_115_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_116_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_117_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_118_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nine_rep_119_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

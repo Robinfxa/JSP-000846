@@ -1,0 +1,27 @@
+{
+  "case": 160,
+  "module": "ChunkC160_017",
+  "source_sha256": "cb125984214a87e5baed79dc04cf23688fd7c231006cfc95f1152a1fbec350b9",
+  "final": true,
+  "stats": {
+    "states": 233,
+    "forms": 43,
+    "capacity": 196,
+    "missing": 20,
+    "splits": 17,
+    "branches": 252
+  },
+  "certificate_sha256": "06a11a203c706b2573686497dcafd9d91005c54b1bdaee0c42f30e6e6c0b919e",
+  "utc": "2026-09-18T02:35:05.890069+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 12.042924470995786,
+  "stdout": "'JSP846DAG.C160.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "accepted": true
+}

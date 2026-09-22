@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T08:57:10.247694+00:00",
+  "module": "EightTop_18_08",
+  "source_sha256": "0b02d963e512763d172212f48a089c7a644f6d9c9038cd4fc3488b839eccaa58",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 28.44897199299885,
+  "stdout": "'JSP846Standard.eightTop_18_8_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

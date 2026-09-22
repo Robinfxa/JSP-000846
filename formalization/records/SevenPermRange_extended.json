@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:48:45.226321+00:00",
+  "module": "SevenPermRange",
+  "source_sha256": "7dd22de8206e62d5491208f76210b3a7bae130f14ce7f8628cfb2be90aa6f9cc",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 28.341828300006455,
+  "stdout": "'JSP846Standard.sevenPermNat_lt' does not depend on any axioms\n",
+  "stderr": "",
+  "olean_exists": true
+}

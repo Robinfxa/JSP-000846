@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:07:01.175971+00:00",
+  "module": "ConnectivityBase",
+  "source_sha256": "3f906aa00ab86c82b0179eae2a9c6e83f11cc0f2c3a0c6fcd6c6252c9968957a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 70.87661644200125,
+  "stdout": "'JSP846Standard.owner_of_arc_edge' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

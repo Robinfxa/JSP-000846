@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T04:09:53.476624+00:00",
+  "module": "TenEndpointClosed",
+  "source_sha256": "66331ff78268997fb967e907b56da3e026715acefa01f77da7af76d48d35ea3d",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 36.358088964014314,
+  "stdout": "'JSP846Standard.ten_representatives_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_model_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_ten_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:19:48.175692+00:00",
+  "module": "SixRepBank01",
+  "source_sha256": "dc91507da04155226b9db8cb23865c52caa3ddfe7a9f6d4cbd762aae021f186c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 64.37213470399729,
+  "stdout": "'JSP846Standard.six_rep_008_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_009_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_010_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_011_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_012_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_013_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_014_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_rep_015_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

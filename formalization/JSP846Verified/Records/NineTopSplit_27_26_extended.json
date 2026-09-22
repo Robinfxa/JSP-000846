@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T13:57:17.639450+00:00",
+  "module": "NineTopSplit_27_26",
+  "source_sha256": "af005dcf0a3d84a194807086c9793985a374ea13c976d3781978e69a8072d5d7",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 25.731981187011115,
+  "stdout": "'JSP846Standard.nineTop_27_26_orbit_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

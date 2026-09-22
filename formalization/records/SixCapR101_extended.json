@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T15:07:06.131931+00:00",
+  "module": "SixCapR101",
+  "source_sha256": "dcff69f80cb13cb9ac560ae841dac908cfd2100fd0b6873b4f9e2e97dcbc4e8e",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 82.70001433799916,
+  "stdout": "'JSP846Six.R101.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

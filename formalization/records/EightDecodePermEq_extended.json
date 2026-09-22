@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T08:01:29.966346+00:00",
+  "module": "EightDecodePermEq",
+  "source_sha256": "f496d88b427b88639e00b2b607a968a445402ac3f839dcd99adfdffff7d6a7c3",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 19.88641326301149,
+  "stdout": "'JSP846Standard.eightDecodeNat_perm' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

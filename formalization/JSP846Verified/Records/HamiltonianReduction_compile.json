@@ -1,0 +1,9 @@
+{
+  "source_sha256": "11a2601588a6a0aa62fee3b614bf62f585355b3653d2dd70c157e96023930e81",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 16.670763990001433,
+  "stdout": "'JSP846Standard.pancyclic_46_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.five_chord_endpoint_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.hamiltonian_cyclic_order' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_structure' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

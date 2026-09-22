@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:00:27.454171+00:00",
+  "module": "NineTopRefined_35_18_T05",
+  "source_sha256": "227b0045c3a777edd13ada5daefb92fb0f2a58f27d72efd85df89077eb2d5e28",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 9.20691901500686,
+  "stdout": "'JSP846Standard.nineTop_35_18_t5_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

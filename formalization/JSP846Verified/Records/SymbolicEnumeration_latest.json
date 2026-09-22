@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:35:13.881025+00:00",
+  "module": "SymbolicEnumeration",
+  "source_sha256": "ddf03a6e9e562093827036061b471379c77f013cbbcaca8ba30ab0dd48f517a1",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 38.626581861994055,
+  "stdout": "'JSP846Standard.mem_enumerateSelections' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

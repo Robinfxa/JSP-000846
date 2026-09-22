@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:12:11.624124+00:00",
+  "module": "NineDecodePermEq",
+  "source_sha256": "08dec50e5255f0efe063f9eb0fb5a286415ad45982f09c36c415342bf5ab5cf1",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 8.142352189985104,
+  "stdout": "'JSP846Standard.nineDecodeNat_perm' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

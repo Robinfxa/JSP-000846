@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:52:04.953648+00:00",
+  "module": "SevenLargeC040Pruned",
+  "source_sha256": "ad0a245be42019fe546881ab9cd85bc3a7088c5cf5e67db42be98fef63fb28ca",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 29.97344160801731,
+  "stdout": "'JSP846SevenLarge.C040P.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846SevenLarge.C040P.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

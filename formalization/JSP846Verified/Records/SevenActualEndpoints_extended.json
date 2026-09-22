@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:28:32.882154+00:00",
+  "module": "SevenActualEndpoints",
+  "source_sha256": "b5be87d04df39a3d4e7a49acc30569d00b235ac55e47ffc37314a5b993d7930c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 15.079230262024794,
+  "stdout": "'JSP846Standard.sevenUFin_val' depends on axioms: [propext]\n'JSP846Standard.sevenVFin_val' depends on axioms: [propext]\n",
+  "stderr": "",
+  "olean_exists": true
+}

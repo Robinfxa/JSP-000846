@@ -1,0 +1,23 @@
+{
+  "case": 17,
+  "module": "ChunkC017_013",
+  "source_sha256": "a5b4b3a64d55938a0ab4fb7d41eb118c85d819ad75a8430e46359afe4ce47a53",
+  "final": false,
+  "stats": {
+    "states": 269,
+    "forms": 40,
+    "capacity": 214,
+    "missing": 36,
+    "splits": 19,
+    "branches": 276
+  },
+  "certificate_sha256": "031547272c217d6bd27152b139ec7471fa1a73963de1e779048b7be69c767aa4",
+  "utc": "2026-09-18T03:12:55.663749+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 22.0984696519954,
+  "stdout": "",
+  "stderr": "",
+  "axioms": [],
+  "accepted": true
+}

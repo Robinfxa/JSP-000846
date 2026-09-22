@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:25:39.561567+00:00",
+  "module": "SevenActualCore",
+  "source_sha256": "a2ee4ef8afe1a65a2904b32d779db9f4530dec6e12d35d51e8cfc6e2affcf376",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 18.53144291602075,
+  "stdout": "'JSP846Standard.sevenEdgeFin_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.seven_decode_encode' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.seven_encode_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.sevenToNat_subset_range' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

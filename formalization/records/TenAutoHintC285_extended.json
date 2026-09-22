@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-21T14:03:23.387183+00:00",
+  "module": "TenAutoHintC285",
+  "source_sha256": "c5074083920592ad8dcd7b5c25852980854ea1d9217ecc897c73b09686a03a3a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 35.44645224302076,
+  "stdout": "'JSP846TenAutoHint.C285.replay_eq_hint' does not depend on any axioms\n'JSP846TenAutoHint.C285.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

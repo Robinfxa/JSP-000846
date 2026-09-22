@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T02:51:07.639427+00:00",
+  "module": "TableT4L003",
+  "source_sha256": "b102abc2d353c4ecdb529b91bad98967661f9c645a0b78f7284e0d595e60d2ab",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 55.88519815100153,
+  "stdout": "'JSP846Table.T4L003.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

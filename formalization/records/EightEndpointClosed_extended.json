@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T12:04:02.960325+00:00",
+  "module": "EightEndpointClosed",
+  "source_sha256": "6df9d7cb2ad9e2e6484c8e4f9b2d4f2232b4ff83574f6b22a1340b4eef06da59",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 83.2526383070217,
+  "stdout": "'JSP846Standard.eight_representatives_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_model_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_eight_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion_nine' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

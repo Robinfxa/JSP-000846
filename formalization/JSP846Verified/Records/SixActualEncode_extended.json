@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:21:34.905074+00:00",
+  "module": "SixActualEncode",
+  "source_sha256": "792196344e1b87a2dbb98ae49f02eb33227d2c970e2e984a9fe3677590e6ba3a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 74.33024355900125,
+  "stdout": "'JSP846Standard.sixEdgeOfIndex_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_decode_encode_actual' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_encode_incident' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_actual_candidate_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

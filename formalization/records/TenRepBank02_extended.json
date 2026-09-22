@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T04:05:54.596879+00:00",
+  "module": "TenRepBank02",
+  "source_sha256": "35d00f3a0a18a1dcf06ec9a4e18de2ba20f57d5ea12f0804fed0debf32a24c1d",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 33.0369952750043,
+  "stdout": "'JSP846Standard.ten_rep_16_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_17_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_18_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_19_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_20_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_21_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_22_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_rep_23_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

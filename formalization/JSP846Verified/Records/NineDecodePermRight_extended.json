@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:12:03.322979+00:00",
+  "module": "NineDecodePermRight",
+  "source_sha256": "e8222b106afd7923367bd69bb0dc6cea7537c2f3a36de698dabe1b4278d78ba6",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 12.688512285007164,
+  "stdout": "",
+  "stderr": "",
+  "olean_exists": true
+}

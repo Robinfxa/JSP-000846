@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T12:31:50.168143+00:00",
+  "module": "NineCapR042Pruned",
+  "source_sha256": "3208c4bc7dee6a802f7935d48f45f1978702912232bf7d1f0823efc3f09dca70",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 61.97496230099932,
+  "stdout": "'JSP846Nine.R042P.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

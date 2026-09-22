@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T13:13:54.013210+00:00",
+  "module": "FastEncoded",
+  "source_sha256": "b2d8d0f9420c2b091f581d305d25bf5a3419a762306b79c5bf0467b7907c8b00",
+  "exit": 1,
+  "timed_out": false,
+  "seconds": 8.539242929997272,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/FastEncoded.lean:1:0: error: unknown module prefix 'WeightedTransport'\n\nNo directory 'WeightedTransport' or file 'WeightedTransport.olean' in the search path entries:\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-final-models-kp9h_l2d\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-tablebridge-n7zxbkrs\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-symbolic-jv17cukh\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-compression-o282684o\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-graphbridge-1_r81ql2\n/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846_replay_fuls_8tr\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/Cli/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/batteries/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/Qq/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/aesop/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/proofwidgets/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/importGraph/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/LeanSearchClient/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/plausible/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/packages/mathlib/.lake/build/lib/lean\n/Users/robin/Desktop/JSP-000846/formalization/.lake/build/lib/lean\n/Users/robin/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/lib/lean\n/Users/robin/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/lib/lean\n",
+  "stderr": "",
+  "olean_exists": false
+}

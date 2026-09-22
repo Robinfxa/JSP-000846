@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:56:40.933979+00:00",
+  "module": "SevenPermEdge",
+  "source_sha256": "359b627114b65afd7b60863b333a2ac0bda1ecc5017e6396aee5ff4b077f6281",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 16.919524380995426,
+  "stdout": "'JSP846Standard.seven_edge_perm' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:44:12.376660+00:00",
+  "module": "ParityEnumeration",
+  "source_sha256": "2f9d8511a71b32e0e9787a0c4cc0d58ee5d9667877c7f8c6bda76ed86ef9ed04",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 17.732425694004633,
+  "stdout": "'JSP846Standard.enumerateSelections_eq_fast' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.degreeSelections_eq_fast' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.five_chord_candidate_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

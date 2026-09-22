@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:39:51.062833+00:00",
+  "module": "SymbolicFinalBridge",
+  "source_sha256": "12d3ecd6bd4d781bdc9c6e4be03870a8f706785ea7aa5e16f5c12992dacce3ce",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 54.14384272699681,
+  "stdout": "JSP846Standard.pancyclic_46_symbolic_cover (G : SimpleGraph JSP846Standard.V) [DecidableRel G.Adj]\n  (hG : G.edgeFinset.card = 46) (hpan : JSP846Standard.Pancyclic G) :\n  ∃ S, ∀ (l : ℕ), 3 ≤ l → l ≤ 41 → l ∈ JSP846Standard.symbolicLengths S\nJSP846Standard.exact_minimum_of_symbolic_exclusion (hexcl : JSP846Standard.SymbolicExclusion) :\n  JSP846Standard.HasExactMinimum 47\n'JSP846Standard.pancyclic_46_symbolic_cover' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

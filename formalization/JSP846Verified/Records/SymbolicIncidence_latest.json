@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:17:56.520361+00:00",
+  "module": "SymbolicIncidence",
+  "source_sha256": "247ed1354173524014a8e013e3d10ae35c2a67225248c15f0e104ac290269f8a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 54.27316714799963,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-symbolic-jv17cukh/SymbolicIncidence.lean:83:29: warning: This simp argument is unused:\n  Fin.val_mk\n\nHint: Omit it from the simp argument list.\n  [apply] simp only at hv\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'JSP846Standard.arc_incident_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.incident_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

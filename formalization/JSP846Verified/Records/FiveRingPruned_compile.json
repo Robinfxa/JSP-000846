@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T04:43:07.130707+00:00",
+  "module": "FiveRingPruned",
+  "source_sha256": "5c48cb850db0920f03086717a8ac545ffa4053fc45ce64844e5f79d99309f686",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 33.543826198001625,
+  "stdout": "'JSP846Standard.ring_forbidden_sound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ring_pruned_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.fiveRing_symbolic_small' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

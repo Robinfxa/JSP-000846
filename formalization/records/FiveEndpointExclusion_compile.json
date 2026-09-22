@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T05:12:20.519453+00:00",
+  "module": "FiveEndpointExclusion",
+  "source_sha256": "a59c7fa13e3b77a7816cbf4584cd0e49f83711bc777ac167644591e5806003d2",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 45.1039208420043,
+  "stdout": "'JSP846Standard.fullFiveCatalog_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_five' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover_six' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion_six' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

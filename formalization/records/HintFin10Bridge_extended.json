@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-20T04:17:15.009081+00:00",
+  "module": "HintFin10Bridge",
+  "source_sha256": "17eb46119ae58e47d5257484b7037d82ac47ff9bc12903e907298c0bc7344ec0",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 74.44410162800341,
+  "stdout": "'JSP846HintBridge.listWeight_finList10' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

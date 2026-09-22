@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:34:08.014287+00:00",
+  "module": "EightRepBank52",
+  "source_sha256": "42cb8143adbc0e40da3623ea36d4e89a42abf23ccc866558bb391ee1cf84dbc0",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 59.39773471499211,
+  "stdout": "'JSP846Standard.eight_rep_416_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

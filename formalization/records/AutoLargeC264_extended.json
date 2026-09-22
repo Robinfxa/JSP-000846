@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T14:01:17.317080+00:00",
+  "module": "AutoLargeC264",
+  "source_sha256": "2590b8fc74321fd41989e5f89aa2f943f0d0d3e3ec584d1c8b04db5ba4b1bcf2",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 79.80029742998886,
+  "stdout": "'JSP846AutoLarge.C264.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846AutoLarge.C264.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

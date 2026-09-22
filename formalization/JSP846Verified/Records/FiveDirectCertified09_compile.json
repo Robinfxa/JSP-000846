@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T04:55:01.019457+00:00",
+  "module": "FiveDirectCertified09",
+  "source_sha256": "9d6c0d57d23830e5f786751989c0cc8f01d2e95c0dd97393098122d5660f019d",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 68.15470861499489,
+  "stdout": "'JSP846FiveDirectCertified.B09.bounded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

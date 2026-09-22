@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:08:40.355545+00:00",
+  "module": "SymbolicConnectivity",
+  "source_sha256": "9fefbe3b3df2ce924ce49befd77c15fb74a77a2c91e3a484cebf2472d5a618e9",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 41.65148352999677,
+  "stdout": "'JSP846Standard.arc_edge_contract' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.chord_edge_contract' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

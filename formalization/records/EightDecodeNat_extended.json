@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T08:00:12.052574+00:00",
+  "module": "EightDecodeNat",
+  "source_sha256": "7450614487bcb4b42c570b0b18cdeedfd7595e6aa1399c5dde2a56dfe091f86b",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 21.812228232010966,
+  "stdout": "'JSP846Standard.eightDecodeNat_toNat' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

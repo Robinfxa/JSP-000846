@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:59:45.506977+00:00",
+  "module": "EightCapR021",
+  "source_sha256": "fc933f127802697c5628dfccb652d600695868df890cc6de5420e3b741c49373",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 30.026168072014116,
+  "stdout": "'JSP846Eight.R021.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

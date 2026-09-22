@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-21T14:03:58.789493+00:00",
+  "module": "TenAutoTableC288",
+  "source_sha256": "86a51fd7910a3e30132d7d8edf4dcad2c84cc67931b4ff73d5d8a0fb5ad8da2e",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 35.149954927008366,
+  "stdout": "'JSP846TenAutoTable.C288.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846TenAutoTable.C288.table_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

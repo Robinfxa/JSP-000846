@@ -1,0 +1,8 @@
+{
+  "module": "SixLarge001",
+  "exit": 0,
+  "seconds": 79.57496210001409,
+  "stdout": "'JSP846SixLarge.C001.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846SixLarge.C001.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "sha256": "02e854c12cbe3060f6ef065f66974896e3ce612ef14272bc8621964ab53a2a47"
+}

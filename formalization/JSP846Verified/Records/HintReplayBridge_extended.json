@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:05:19.113203+00:00",
+  "module": "HintReplayBridge",
+  "source_sha256": "786110a360d3846fa36eddd64bd0c5f16394b4e0e8934df032926818cd2ec28a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 24.038878875988303,
+  "stdout": "'JSP846HintBridge.eval_eq_val' depends on axioms: [propext, Quot.sound]\n'JSP846HintBridge.originalFeasible_of_replay' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

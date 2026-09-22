@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T03:03:48.409268+00:00",
+  "module": "SixNumericHigh02",
+  "source_sha256": "b29aa3f167a547c81dc9c196c88601d6758d1fc055a115f290ec86ad7dbfc1df",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 117.30562868498964,
+  "stdout": "'JSP846Standard.sixNumericHigh02' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

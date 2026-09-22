@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:11:30.792226+00:00",
+  "module": "NinePermRange",
+  "source_sha256": "1fb7f0d54ed730a3103b1db6a552f2dad4460778dffa3a35bd9fe60f4e06a147",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 12.274726219009608,
+  "stdout": "'JSP846Standard.ninePermNat_lt' does not depend on any axioms\n",
+  "stderr": "",
+  "olean_exists": true
+}

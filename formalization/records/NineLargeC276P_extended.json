@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T15:46:03.149237+00:00",
+  "module": "NineLargeC276P",
+  "source_sha256": "ee35d5fab1cb680b815e85f296af633b463636fdc6707ee7c36a3f79495fd5cc",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 120.47859163599787,
+  "stdout": "'JSP846NineLarge.C276P.pruned_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846NineLarge.C276P.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

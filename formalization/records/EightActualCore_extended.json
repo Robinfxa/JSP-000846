@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:58:43.714382+00:00",
+  "module": "EightActualCore",
+  "source_sha256": "9138691c355a44800ed0c7f4222a56c95223f17f8348a3dbb6d490d82c011776",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 23.354011557006743,
+  "stdout": "'JSP846Standard.eightEdgeFin_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_decode_encode' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.eight_encode_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

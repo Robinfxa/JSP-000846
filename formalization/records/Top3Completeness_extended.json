@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:13:06.243112+00:00",
+  "module": "Top3Completeness",
+  "source_sha256": "06ee84e065772ace39deda27e81000b9aa6c7ca38d36c11449756aaf22b51849",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 10.128436503000557,
+  "stdout": "'JSP846Standard.exists_combTop3_of_mem_combTop2' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

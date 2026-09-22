@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T09:21:06.070162+00:00",
+  "module": "EightLargeC155P",
+  "source_sha256": "d5f8b9afd1fcf1a6dafe59d7407bb1640f3e86a323907a641a9de5349ecb91dc",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 42.8850653419795,
+  "stdout": "'JSP846EightLarge.C155P.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846EightLarge.C155P.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T15:24:32.985877+00:00",
+  "module": "SixClassDefs",
+  "source_sha256": "c363ee05e1d5b907bbaf8829415cf4089c82294791123c2a4879bbfccb04d839",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 30.70504002799862,
+  "stdout": "",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T02:53:47.648766+00:00",
+  "module": "TenCatalogNodup",
+  "source_sha256": "20e417e4cacbffe5af2038f227111f168d6880b644d6b06795a6f9f23f60069a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 68.23064801702276,
+  "stdout": "'JSP846Standard.tenAllD_nodup' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenCatalog_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

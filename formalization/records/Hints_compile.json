@@ -1,0 +1,8 @@
+{
+  "status": "RETURNED",
+  "lean_exit": 0,
+  "seconds": 5.593315268999959,
+  "source_sha256": "07637030022834e2391682ca429b7b61e16945d818998941a3681a0df8c4c634",
+  "stdout": "'JSP846Residual.leafHint_sound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Residual.hint_certified_original' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": ""
+}

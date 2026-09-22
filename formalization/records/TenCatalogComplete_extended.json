@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T02:54:29.816236+00:00",
+  "module": "TenCatalogComplete",
+  "source_sha256": "43735d58662b1d376727e98710eb36a1c84d19fa823f3c401a5d4572f8a9ffda",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 21.86359346198151,
+  "stdout": "'JSP846Standard.tenCatalog_eq_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_candidate_orbit_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T01:13:13.103645+00:00",
+  "module": "SelectedSupport",
+  "source_sha256": "fcabbd145e845620221a3d9a0922d800656fcd490abbc47a68f9e5a6741deb6c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 67.91637783199985,
+  "stdout": "'JSP846Standard.selected_support_connected' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

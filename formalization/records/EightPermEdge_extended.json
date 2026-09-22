@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:59:47.189493+00:00",
+  "module": "EightPermEdge",
+  "source_sha256": "f3bce7e8b7fc42d58ef3eb523d4cf955eb82e0b9918d51e692daac7639617e04",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 32.31353253099951,
+  "stdout": "'JSP846Standard.eight_edge_perm' depends on axioms: [propext, Quot.sound]\n'JSP846Standard.eightPermNat_lt' does not depend on any axioms\n",
+  "stderr": "",
+  "olean_exists": true
+}

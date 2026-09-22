@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:12:47.161152+00:00",
+  "module": "CombNat",
+  "source_sha256": "a78140d06ce29b8de3c4bce306f9e548cbc8531157cdc45491b9afa2c79845be",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 6.367535142984707,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/CombNat.lean:31:16: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp at h0\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'JSP846Standard.combNat_toFinset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.mem_combNat_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

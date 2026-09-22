@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T04:41:01.647644+00:00",
+  "module": "CutPrunedCount",
+  "source_sha256": "ff34a9989936e72bd175dbd72e85f4db84bd659d741679aef025b27d56021de8",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 31.89394213599735,
+  "stdout": "'JSP846Standard.cycle_card_le_pruned_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

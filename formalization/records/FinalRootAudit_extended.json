@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T05:03:22.189152+00:00",
+  "module": "FinalRootAudit",
+  "source_sha256": "238da4aee744a671ad6c16d1bf6e3a800e0ff29b0c4016dfc76b6bed79d40efb",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 76.10115932999179,
+  "stdout": "JSP846Standard.exact_minimum_41_47 : JSP846Standard.HasExactMinimum 47\nJSP846Standard.final_statement :\n  (\u2203 G, Nat.card \u2191G.edgeSet = 47 \u2227 JSP846Standard.Pancyclic G) \u2227\n    \u2200 (G : SimpleGraph JSP846Standard.V), JSP846Standard.Pancyclic G \u2192 47 \u2264 Nat.card \u2191G.edgeSet\n'JSP846Standard.exists_pancyclic_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.final_statement' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.final_no_46' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:53:29.897461+00:00",
+  "module": "SevenEndpointClosed",
+  "source_sha256": "ac27e5119109cc07c623892ef88ffb8a5f1a5396e2ad4763b6435a114cab5738",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 80.35974219097989,
+  "stdout": "'JSP846Standard.seven_representatives_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.seven_model_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_seven_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover_eight' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion_eight' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

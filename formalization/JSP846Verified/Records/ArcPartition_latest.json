@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T00:00:48.835441+00:00",
+  "module": "ArcPartition",
+  "source_sha256": "6a34ddf1b1f706efe26b88ba1117f5b7047822f13c2dd6a4b573b2809b8eb887",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 32.83605935399828,
+  "stdout": "'JSP846Standard.arcPositions_partition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.arcEdges_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.arcEdges_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.arcEdges_cover_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

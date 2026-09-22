@@ -1,0 +1,51 @@
+{
+  "case": 313,
+  "status": "RETURNED",
+  "accepted": true,
+  "seconds": 20.802256106999266,
+  "lean_exit": 0,
+  "theorem": "JSP846Residual.HintCases.C313.infeasible",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "stdout": "'JSP846Residual.HintCases.C313.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "source_sha256": "e98c65af1e919c18230e8f68084fd3c05c6912128c2a609e553a6eb511585a24",
+  "checker_sha256": "40e302042bbadf5db1ab5975682af8271cd35f8f56d37e0f8b91ab49397979d1",
+  "hints_sha256": "07637030022834e2391682ca429b7b61e16945d818998941a3681a0df8c4c634",
+  "fast2_sha256": "78e3d738c74836245f04ac23622278e03659e6439a77f512eb95fe35a2c5baea",
+  "bridge_sha256": "d2dc92a5cb39ca14c469a6b1c9a4ce881017dc24757fe104173486ae1d9eee88",
+  "input_sha256": "d73d3f5b44de17d71fd09f1009a52e47bbe84d32f037767c9a6f8b6d8898a3f3",
+  "certificate_sha256": "ad21f7ca79034229490d11f6cb17ca0e7eae3d0aaf0404232c29caded0c52f3d",
+  "stats": {
+    "original_states": 17,
+    "certificate_nodes": 17,
+    "duplicate_states_eliminated": 0,
+    "split_nodes": 4,
+    "branch_links": 16,
+    "source_states": [
+      18018866349477953,
+      4467856769089,
+      281544786968641,
+      285942816702529,
+      285942849994817,
+      285943906959425,
+      286011552694337,
+      290340879728705,
+      567417809928257,
+      18295873503236161,
+      4467839733825,
+      281543712968769,
+      285873040261185,
+      4467839729729,
+      281474993487937,
+      65,
+      0
+    ],
+    "stored_nodes_after_pruning": 4,
+    "inline_leaf_checks": 13,
+    "reference_checks": 3
+  }
+}

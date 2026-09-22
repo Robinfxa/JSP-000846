@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:19:06.064313+00:00",
+  "module": "SevenTop_07_03",
+  "source_sha256": "e382091d9337ab7b56a93ec54be36ee52ec62759354b9c47a768a1b861c977db",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 9.33744932099944,
+  "stdout": "'JSP846Standard.sevenTop_7_3_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

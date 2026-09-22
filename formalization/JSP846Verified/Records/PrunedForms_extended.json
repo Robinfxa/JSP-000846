@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T04:46:18.013118+00:00",
+  "module": "PrunedForms",
+  "source_sha256": "ed604ba533f682bcd2d1442ef6bbaa3d1e8dc86010c93ccca5d1507e44713fb6",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 12.614430704008555,
+  "stdout": "'JSP846Standard.encoded_subset_pruned_forms' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_model_of_pruned_forms_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

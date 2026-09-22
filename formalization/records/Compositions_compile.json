@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-18T02:17:13.028868+00:00",
+  "module": "Compositions",
+  "source_sha256": "baaa9c9160848a458958b053d3b3371841e2671aaf151522acb5b222f73fd223",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 6.784730099992885,
+  "stdout": "'JSP846Compositions.mem_compositions' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "roots": [
+    "JSP846Compositions.mem_compositions"
+  ],
+  "axioms": [
+    "Quot.sound",
+    "propext"
+  ],
+  "accepted": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:16:39.471431+00:00",
+  "module": "SevenCapBatch052",
+  "source_sha256": "286c15922bc1c2d349b848af68949eadff5db92abac69e7163197eee6f22c690",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 38.61976855198736,
+  "stdout": "'JSP846Seven.R284.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R285.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R286.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/SevenCapBatch052.lean:351:2: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [bad] at hz\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'JSP846Seven.R287.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R288.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

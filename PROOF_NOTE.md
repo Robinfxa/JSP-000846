@@ -1,12 +1,12 @@
-> Publication context (2026-09-17 UTC): The original report follows unchanged. Statements about "this run/session", verification, and no prior publication refer to its preparation stage. This release performs packaging and hash-integrity checks only. Lean formalization and independent external mathematical review are not completed; final global priority/literature audit remains pending. No full asymptotic solution or prize claim is made. All report-relative file paths resolve under [the frozen evidence directory](evidence/JSP000846_m41_47_20260917/). See [README](README.md) for current publication status and reproduction commands.
+> Publication context (2026-09-22 UTC, v0.2.0-formal-proof): Machine-checked Lean 4 formalization of the finite theorem $m(41)=47$ is complete and kernel-verified in `formalization/` (root theorem `JSP846Standard.exact_minimum_41_47 : HasExactMinimum 47`, axiom closure: `[propext, Classical.choice, Quot.sound]`, 0 `sorryAx`). **CRITICAL SCOPE BOUNDARY: The formal proof establishes the finite case $m(41)=47$; this does NOT solve the full asymptotic Erdős Problem #1016 for $n \ge 42$, nor does it constitute an award submission.** The original 2026-09-17 computational research dossier follows below. See [README](README.md) and [formalization/README.md](formalization/README.md) for current formal proof reproduction instructions.
 
 # The minimum size of a pancyclic graph on 41 vertices
 
-**Computational proof dossier — 17 September 2026**
+**Computational proof and formal verification dossier — 22 September 2026**
 
-**Result of this run:** `m(41) = 47`, supported by complete finite topology enumeration, 328 independently replayed exclusion certificates, a second Z3 computation, and an explicit upper-bound witness.
+**Result:** `m(41) = 47`, formally proved in Lean 4 (root theorem `JSP846Standard.exact_minimum_41_47`), and supported by complete finite topology enumeration, 328 independently replayed exclusion certificates, Z3 cross-checks, and an explicit 47-edge witness.
 
-**Status boundary:** This dossier is a computer-assisted proof artifact, not a Lean formalization, an externally refereed theorem, a priority determination, or an award submission. “Independent” below means independently implemented algorithms within this project, not external third-party review.
+**Status boundary:** Finite theorem $m(41)=47$ is fully formalized and kernel-checked in Lean 4. It does not resolve the general asymptotic problem $n \ge 42$, does not establish global priority, and makes no prize claim.
 
 ## 1. Definition and theorem under verification
 
@@ -165,7 +165,7 @@ The elementary bound excludes e≤45. The complete topology enumeration plus rep
 
 What remains before a formal/academic claim is finalized:
 
-1. Formalize the compression, enumeration coverage, and certificate-checker soundness in Lean; also formalize the elementary lower bound and witness verification. No `.lean` proof is claimed here.
+1. **Lean 4 formalization: COMPLETED.** The entire reduction chain, skeleton enumeration, certificate exclusions, upper-bound witness, and monotonicity padding are formalized in Lean 4 (3,574 modules in `formalization/`, root theorem `JSP846Standard.exact_minimum_41_47 : HasExactMinimum 47`, axiom closure: `[propext, Classical.choice, Quot.sound]`, 0 `sorryAx`).
 2. Obtain an external mathematical/code review. Multiple implementations by one project do not substitute for external review.
 3. Complete the priority audit, especially the full relevant book chapter and less visible literature. Search nonmatches do not prove originality.
 4. Assess whether this finite result merits publication or prize consideration. No prize amount or eligibility outcome is inferred.

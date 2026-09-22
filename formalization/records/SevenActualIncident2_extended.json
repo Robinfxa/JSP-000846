@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:29:17.543292+00:00",
+  "module": "SevenActualIncident2",
+  "source_sha256": "98e6a3a1e5c8ff33c3cbfeea28caacb960ce8b1c691a8214e8a0be9553deffb6",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 18.607027410005685,
+  "stdout": "'JSP846Standard.sevenToNat_incident' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:11:31.381469+00:00",
+  "module": "EightLargeC176Hint",
+  "source_sha256": "02bfd7a23bf379e832aa63dc40513e8c084e9a3ff109eae71065b1388f463f45",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 47.43171732101473,
+  "stdout": "'JSP846EightLarge.C176P.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846EightLarge.C176P.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

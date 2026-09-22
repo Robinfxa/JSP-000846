@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T17:33:41.143700+00:00",
+  "module": "NineLargeC273Defs",
+  "source_sha256": "b2b1a0c74a2ec5797da65139feb8b61449d4d037e1d0e9980aa2f3705d7f6570",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 136.64056960400194,
+  "stdout": "'JSP846NineLarge.C273P.bad_not_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

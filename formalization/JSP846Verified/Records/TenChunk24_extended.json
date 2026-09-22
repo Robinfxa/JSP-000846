@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-20T02:58:15.263296+00:00",
+  "module": "TenChunk24",
+  "source_sha256": "14d569e0c4367d3b2dac55f8c54fe7d5c31b7bf592449b4de73b88e9d7f833aa",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 86.48299078998389,
+  "stdout": "'JSP846Standard.tenChunk24_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenChunk24_codeChain' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

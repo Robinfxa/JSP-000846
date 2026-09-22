@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T02:55:08.474602+00:00",
+  "module": "FourEndpointExclusion",
+  "source_sha256": "c816cf4caddffc31a423064adc60b172e7ac5e335f3ed42650855ecd1d20a2b1",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 36.85774415000196,
+  "stdout": "'JSP846Standard.fourChordCatalog_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.fourEndpoint_table_witness' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_symbolic_cover_four' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_symbolic_cover_five' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_symbolic_exclusion_five' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

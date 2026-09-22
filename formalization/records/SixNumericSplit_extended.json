@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:09:21.093538+00:00",
+  "module": "SixNumericSplit",
+  "source_sha256": "a495dfde8cf0ad901d73eb08d97ec24bd74fdad1f10b6dee497897a1a0f1bccb",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 25.728944069996942,
+  "stdout": "'JSP846Standard.six_split_code' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,55 @@
+import SevenTop2Defs
+set_option autoImplicit false
+set_option maxRecDepth 100000
+set_option maxHeartbeats 12000000
+namespace JSP846Standard
+def sevenCertTop_15_11 (S : Finset Nat) : Fin 14 × Fin 333 :=
+  match sevenSetMask S with
+  | 34865 => (7,49)
+  | 34928 => (7,123)
+  | 34992 => (10,48)
+  | 35120 => (7,121)
+  | 35361 => (8,167)
+  | 35362 => (5,257)
+  | 35364 => (10,157)
+  | 35368 => (7,206)
+  | 35376 => (7,116)
+  | 35424 => (6,221)
+  | 35488 => (10,47)
+  | 35616 => (11,166)
+  | 35857 => (8,66)
+  | 35858 => (5,256)
+  | 35860 => (10,154)
+  | 35864 => (11,225)
+  | 35888 => (1,91)
+  | 35920 => (6,253)
+  | 35984 => (10,46)
+  | 36112 => (11,165)
+  | 36353 => (8,13)
+  | 36354 => (5,258)
+  | 36356 => (10,153)
+  | 36360 => (11,224)
+  | 36368 => (4,279)
+  | 36384 => (1,116)
+  | _ => (0,0)
+def sevenGoodTop_15_11 (S : Finset Nat) : Prop :=
+  S.image (sevenPermNat (sevenCertTop_15_11 S).1) =
+    sevenRepAt (sevenCertTop_15_11 S).2
+instance (S : Finset Nat) : Decidable (sevenGoodTop_15_11 S) := by
+  unfold sevenGoodTop_15_11
+  infer_instance
+theorem sevenTop_15_11_all :
+    (combTop2 15 11).all
+      (fun S => decide (sevenIncidentNat S → sevenGoodTop_15_11 S)) = true := by
+  decide +kernel
+theorem sevenTop_15_11_orbit (S : Finset Nat)
+    (hS : S ∈ combTop2 15 11) (hinc : sevenIncidentNat S) :
+    ∃ tag : Fin 14, ∃ rep : Fin 333,
+      S.image (sevenPermNat tag) = sevenRepAt rep := by
+  have hb := (List.all_eq_true.mp sevenTop_15_11_all) S hS
+  have hp : sevenIncidentNat S → sevenGoodTop_15_11 S :=
+    of_decide_eq_true hb
+  have hg := hp hinc
+  exact ⟨(sevenCertTop_15_11 S).1,(sevenCertTop_15_11 S).2,hg⟩
+end JSP846Standard
+#print axioms JSP846Standard.sevenTop_15_11_orbit

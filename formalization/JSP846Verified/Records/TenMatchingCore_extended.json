@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T21:39:05.120305+00:00",
+  "module": "TenMatchingCore",
+  "source_sha256": "f52d396fd8f865dad505aa39c991cb617b3645e3fa2666c178d09cdd23064e00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 11.579758192005102,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/TenMatchingCore.lean:18:2: warning: Try this: \n  letI\u0335\n\nThe goal is a proposition, so `let` is preferred over `letI`.\nThe difference between `let` and `letI` is that `letI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n'JSP846Standard.ten_unique_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenPartner_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.ten_partner_cycleType' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

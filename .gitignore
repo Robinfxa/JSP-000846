@@ -1,3 +1,14 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+*.olean
+*.ilean
+
+# Staging delivery folders and full binary olean zip (published as GitHub Release assets)
+archive/JSP000846_Lean_FULL_m41_eq_47_20260922.zip
+archive/JSP000846_Lean_FULL_m41_eq_47_20260922.zip.sha256
+archive/JSP000846_Lean_FINAL_20260921.zip
+archive/JSP000846_Lean_FINAL_20260921/
+final_verification_20260922/
+JSP000846_Final_Lean_Verification_20260922.zip
+JSP000846_Final_Lean_Verification_20260922.zip.sha256

@@ -1,0 +1,15 @@
+{
+  "case": 253,
+  "module": "MicroC253_098",
+  "final": true,
+  "bytes": 9374,
+  "source_sha256": "feb8b0a6151c0bf5d667ed434ec6c86b5c7d9b4f8f1c03e6c15151d10e8a8c66",
+  "certificate_sha256": "3098165cbd0b0be1652073de7c9b71dad9a2911d5e96aba4ce0e56432b86be3c",
+  "utc": "2026-09-18T06:55:33.842021+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 36.154141466999135,
+  "stdout": "'JSP846DAG.C253.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "accepted": true
+}

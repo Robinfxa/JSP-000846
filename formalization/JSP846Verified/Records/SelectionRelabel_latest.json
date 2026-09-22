@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:39:19.262822+00:00",
+  "module": "SelectionRelabel",
+  "source_sha256": "f953a73069a0e01ec1057ed78a74199068a2753125858814aa64993255437a42",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 16.23488489400188,
+  "stdout": "'JSP846Standard.CycleRelabel.degree_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.CycleRelabel.active_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

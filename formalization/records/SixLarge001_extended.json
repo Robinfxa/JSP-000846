@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T13:30:02.279863+00:00",
+  "module": "SixLarge001",
+  "source_sha256": "02e854c12cbe3060f6ef065f66974896e3ce612ef14272bc8621964ab53a2a47",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 50.52584130600735,
+  "stdout": "'JSP846SixLarge.C001.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846SixLarge.C001.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

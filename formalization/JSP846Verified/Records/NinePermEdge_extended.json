@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:11:18.315453+00:00",
+  "module": "NinePermEdge",
+  "source_sha256": "f728914efaa578ea9dd024e4aaf0b7667a3049fa9ece4c4f481f0b47a34557df",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 18.186655300989514,
+  "stdout": "'JSP846Standard.nine_edge_perm' depends on axioms: [propext, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T00:04:48.867847+00:00",
+  "module": "CycleProjection",
+  "source_sha256": "4b8ae35b7338d047c6d807bb26ff50d886cd796e35ae67966efacf901e6a742c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 17.765185386997473,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-compression-o282684o/CycleProjection.lean:166:4: warning: Unused tactic linter: `change q.edges.toFinset ∩ D.map f = _` does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`\n'JSP846Standard.cycle_arc_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.chosenArc_union' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.cycle_length_arcs_chords' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.cycle_weighted_projection' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

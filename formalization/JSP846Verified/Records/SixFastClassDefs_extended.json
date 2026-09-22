@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T15:31:20.076263+00:00",
+  "module": "SixFastClassDefs",
+  "source_sha256": "2378ddf4b1bb21974ad6db58438cd7f4c4a20bc3bd6647b6f322393ead406654",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 46.86732649899204,
+  "stdout": "'JSP846Standard.sixPerm_left' depends on axioms: [propext]\n'JSP846Standard.sixRep_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

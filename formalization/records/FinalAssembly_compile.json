@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-17T23:36:58.471294+00:00",
+  "source_sha256": "3e62b5924f992ceb04e14b3bcb869beb4988fbabef0fab8c9b118a1e55641be9",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 23.692719773000135,
+  "stdout": "'JSP846Standard.Pancyclic.mono' depends on axioms: [propext, Quot.sound]\n'JSP846Standard.pad_to_46' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.exact_minimum_of_no46' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

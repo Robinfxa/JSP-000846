@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T15:44:01.574116+00:00",
+  "module": "NineTopSplit_33_31_P02",
+  "source_sha256": "8e2ca5713df73247817a7b6f8da3bc52ab9344d3fd6416788b4076b748b2175a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 143.81241021800088,
+  "stdout": "'JSP846Standard.nineTop_33_31_t18_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t19_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t20_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t21_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t22_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t23_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t24_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.nineTop_33_31_t25_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

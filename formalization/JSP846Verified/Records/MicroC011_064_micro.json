@@ -1,0 +1,15 @@
+{
+  "case": 11,
+  "module": "MicroC011_064",
+  "final": false,
+  "bytes": 5103,
+  "source_sha256": "00ba8c599640487f669f286573cf60b0708268d9e2086c1e20a8630e3db9fe34",
+  "certificate_sha256": "e3a3d0519f3cf4f84ce29cc55d26b9465d159fde54d6086d31295e54e7f35f1b",
+  "utc": "2026-09-18T07:07:16.056552+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 6.183446072995139,
+  "stdout": "",
+  "stderr": "",
+  "accepted": true
+}

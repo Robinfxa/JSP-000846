@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:19:10.682034+00:00",
+  "module": "Top2Completeness",
+  "source_sha256": "e0c8a262a9cff962d8c2bf1c7bfee9d7e14cd6b3bcf304a187b7934a2f2f40c4",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 8.224912441015476,
+  "stdout": "'JSP846Standard.exists_combTop2_of_card5' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

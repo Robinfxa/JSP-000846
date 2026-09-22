@@ -1,0 +1,8 @@
+{
+  "status": "RETURNED",
+  "lean_exit": 0,
+  "seconds": 5.88234428099986,
+  "source_sha256": "78e3d738c74836245f04ac23622278e03659e6439a77f512eb95fe35a2c5baea",
+  "stdout": "'JSP846Residual.fast_certified_original' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": ""
+}

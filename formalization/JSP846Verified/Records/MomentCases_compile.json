@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:14:56.869384+00:00",
+  "module": "MomentCases",
+  "source_sha256": "a9d7b7c822809ae9e4c6d0545c81180fc48c25271d1c9ad72a8a1b7aae73d61e",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 42.693438795002294,
+  "stdout": "'JSP846Moment.C000.no_solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Moment.C001.no_solution' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

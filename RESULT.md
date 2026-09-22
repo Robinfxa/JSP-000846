@@ -1,20 +1,20 @@
-> Publication context (2026-09-17 UTC): The original report follows unchanged. Statements about "this run/session", verification, and no prior publication refer to its preparation stage. This release performs packaging and hash-integrity checks only. Lean formalization and independent external mathematical review are not completed; final global priority/literature audit remains pending. No full asymptotic solution or prize claim is made. All report-relative file paths resolve under [the frozen evidence directory](evidence/JSP000846_m41_47_20260917/). See [README](README.md) for current publication status and reproduction commands.
+> Publication context (2026-09-22 UTC, v0.2.0-formal-proof): 本仓库已于 2026 年 9 月 22 日完成有限定理 $m(41)=47$ 的完整 Lean 4 形式化证明（根定理 `JSP846Standard.exact_minimum_41_47`，闭包公理仅含 `propext`, `Classical.choice`, `Quot.sound`，无 `sorryAx`）。**特别郑重声明：有限定理 Lean 已完成，但不等于解决完整 JSP-000846 / Erdős #1016 渐近猜想，亦不主张任何奖项申报。** 原始 2026-09-17 阶段性报告保留如下供溯源。复验命令与形式化依赖请参见 [formalization/README.md](formalization/README.md)。
 
 # JSP-000846：41 点有限目标的求解结果
 
-日期：2026 年 9 月 17 日。
+日期：2026 年 9 月 17 日（初始结果），2026 年 9 月 22 日（Lean 形式化交付）。
 
 ## 结论
 
-本轮得到可独立重放的计算机辅助结论：
+本轮得到可独立重放且已通过 Lean 4 内核复验的形式化结论：
 
 **m(41)=47，等价于 h(41)=6。**
 
 也就是说，41 个顶点的简单图若要同时含有长度 3、4、…、41 的简单环，至少需要 47 条边，而且存在恰好 47 条边的实例。
 
-证据状态：完整结构清单已重新生成；328 个剩余整数问题已被排除；独立 Python 检查器已重放全部排除证书；Z3 对原始 328 个模型也全部返回 UNSAT。尚未完成 Lean 形式化、第三方审查或全球原创性确认。此处“独立”是指不同实现，不是第三方审稿。
+证据状态：完整结构清单已重新生成；328 个剩余整数问题已被排除；独立 Python 检查器已重放全部排除证书；Z3 对原始 328 个模型也全部返回 UNSAT；**Lean 4 形式化证明（3,574 个模块）已全量闭合，根定理 `JSP846Standard.exact_minimum_41_47` 经 Lean 内核与公理审计完全通过**。
 
-这只处理原始 Erdős #1016 的有限参数 n=41，不是证明其一般渐近猜想，也不是已获得奖项。
+**关键边界声明：这只处理原始 Erdős #1016 的有限参数 n=41，有限定理 Lean 已完成，但不等于解决完整 JSP-000846（一般渐近问题），亦未提出奖项主张。**
 
 ## 本轮实际完成的工作
 
@@ -91,14 +91,16 @@ python3 check_all.py
 COMPUTATIONAL_PROOF_REPLAY_PASS
 ```
 
-## 仍未完成的关卡
+## 形式化状态与仍未完成的关卡
 
-**Lean：**还需要把分类完备性、压缩等价性、证书检查器正确性与上界核验写成内核可检查的正式定理。当前包没有声称拥有Lean证明。
+**Lean 形式化：** 已于 2026 年 9 月 22 日全量完成。包含 3,574 个模块，闭合证明根定理 `JSP846Standard.exact_minimum_41_47 : HasExactMinimum 47`，公理闭包严格为 `[propext, Classical.choice, Quot.sound]`，全库 `sorry` / `sorryAx` 计数为 0。
 
-**外部审查：**三种实现一致不等于第三方审稿；需要独立研究者审查数学归约及检查器。
+**问题范围边界（重申）：** 有限定理 $m(41)=47$ 的 Lean 形式化完成，**绝不等于解决完整的 JSP-000846 / Erdős #1016 渐近猜想**。本仓库对 $n \ge 42$ 的情形及渐近性质不做任何已解决断言。
 
-**新颖性：**本轮查到的公开工作报告仍把h(41)列在5和6之间，没有查到确认m(41)=47的原始证明，但完整专著章节及不易检索的文献尚未核尽，因此不宣称世界首次。
+**外部审查：** 代码与形式化定理已开源可重放，但仍需独立数学研究者审查数学归约的学术表述。
 
-**奖项：**有限参数结果是否符合奖项的实质进展要求需要单独评审。没有提交PR、没有公开发布证明、没有奖金承诺。
+**新颖性：** 本轮查到的公开工作报告仍把 h(41) 列在 5 和 6 之间，没有查到确认 m(41)=47 的形式化证明，但完整专著章节及不易检索的文献尚未核尽，因此不宣称世界首次。
 
-本轮运算已完成，未设置会话间自动运行任务。结果、源代码、证书及原始运行记录均保存在本包。
+**奖项：** 本仓库不做任何 Justin Sun Prize 申报，无奖金承诺，亦不向奖项组织方提出任何要求。
+
+本轮交付全部内容（含形式化源码、Lake 配置、验证记录与重放脚本）均完整保存在本仓库。

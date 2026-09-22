@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:49:33.590131+00:00",
+  "module": "DegreeInputCount",
+  "source_sha256": "78b941cf78aa90d1b9e812d39bbd606a07e4b2b22366b5043ab06581def83aab",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 36.117207424998924,
+  "stdout": "'JSP846Standard.degree_card_le_inputs' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

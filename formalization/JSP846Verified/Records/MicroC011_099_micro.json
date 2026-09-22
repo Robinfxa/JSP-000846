@@ -1,0 +1,15 @@
+{
+  "case": 11,
+  "module": "MicroC011_099",
+  "final": true,
+  "bytes": 7946,
+  "source_sha256": "a70ac30e720219ea2e5170370810416e07b41465909a169f711d1caef11d0393",
+  "certificate_sha256": "e3a3d0519f3cf4f84ce29cc55d26b9465d159fde54d6086d31295e54e7f35f1b",
+  "utc": "2026-09-18T07:20:11.322964+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 27.08811641200009,
+  "stdout": "'JSP846DAG.C011.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "accepted": true
+}

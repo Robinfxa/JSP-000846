@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:03:45.286549+00:00",
+  "module": "NineLargeC272Subset",
+  "source_sha256": "66d970bc4ba06308946e43bc297a48b368d918dcc721c81df20ddf729ded6ae3",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 46.56077709098463,
+  "stdout": "'JSP846NineLarge.C272P.pruned_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846NineLarge.C272P.table_subset' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

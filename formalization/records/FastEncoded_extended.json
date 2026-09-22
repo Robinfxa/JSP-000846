@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-22T05:11:08.990497+00:00",
+  "module": "FastEncoded",
+  "source_sha256": "b2d8d0f9420c2b091f581d305d25bf5a3419a762306b79c5bf0467b7907c8b00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 20.598642929980997,
+  "stdout": "'JSP846Standard.encodedSelections_eq_fastEncoded' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_model_of_fast_encoded_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

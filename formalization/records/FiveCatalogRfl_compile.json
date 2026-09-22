@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T05:09:22.091024+00:00",
+  "module": "FiveCatalogRfl",
+  "source_sha256": "d3075cea267baff93af3b270819aaaaef543e2008353619f98a61efefc4d549a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 50.83719588100212,
+  "stdout": "'JSP846Standard.catalog_val_eq' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

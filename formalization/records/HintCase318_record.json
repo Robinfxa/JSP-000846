@@ -1,0 +1,35 @@
+{
+  "case": 318,
+  "status": "RETURNED",
+  "accepted": true,
+  "seconds": 12.556779763999657,
+  "lean_exit": 0,
+  "theorem": "JSP846Residual.HintCases.C318.infeasible",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "stdout": "'JSP846Residual.HintCases.C318.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "source_sha256": "1168fc86f7c6954dbda6f7b614b13b4b42407d652815ca7257b29ce8ac66e9ac",
+  "checker_sha256": "40e302042bbadf5db1ab5975682af8271cd35f8f56d37e0f8b91ab49397979d1",
+  "hints_sha256": "07637030022834e2391682ca429b7b61e16945d818998941a3681a0df8c4c634",
+  "fast2_sha256": "78e3d738c74836245f04ac23622278e03659e6439a77f512eb95fe35a2c5baea",
+  "bridge_sha256": "d2dc92a5cb39ca14c469a6b1c9a4ce881017dc24757fe104173486ae1d9eee88",
+  "input_sha256": "d73d3f5b44de17d71fd09f1009a52e47bbe84d32f037767c9a6f8b6d8898a3f3",
+  "certificate_sha256": "69919ab10284f809c14e59a7128251c46e54f223c3e8eea86733ad289cd80ea9",
+  "stats": {
+    "original_states": 1,
+    "certificate_nodes": 1,
+    "duplicate_states_eliminated": 0,
+    "split_nodes": 0,
+    "branch_links": 0,
+    "source_states": [
+      0
+    ],
+    "stored_nodes_after_pruning": 1,
+    "inline_leaf_checks": 0,
+    "reference_checks": 0
+  }
+}

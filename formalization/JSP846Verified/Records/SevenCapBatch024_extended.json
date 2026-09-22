@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:05:51.017558+00:00",
+  "module": "SevenCapBatch024",
+  "source_sha256": "d8fab8cfe768d13d9675ab3037876d80f02a92388429e8c6958a9839be3565c8",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 75.99140608799644,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/SevenCapBatch024.lean:17:18: warning: This simp argument is unused:\n  Finset.mem_insert\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [bad, Finset.mem_singleton] at hz\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'JSP846Seven.R126.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R127.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R128.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R130.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R131.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

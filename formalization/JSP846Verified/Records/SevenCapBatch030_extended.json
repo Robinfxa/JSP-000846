@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:08:48.923726+00:00",
+  "module": "SevenCapBatch030",
+  "source_sha256": "dcc2303af60badb7d3ae8cb344c008f91a1b00fb694ae06c8dd6466c5f64c612",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 55.04093391599599,
+  "stdout": "'JSP846Seven.R158.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R159.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R160.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R161.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Seven.R162.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

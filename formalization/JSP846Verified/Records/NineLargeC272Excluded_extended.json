@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:04:57.517712+00:00",
+  "module": "NineLargeC272Excluded",
+  "source_sha256": "51f46540ee7d5177bd7658d7ea17272bc0363c6802104bd5dcf237b3db2adf29",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 31.997687675990164,
+  "stdout": "'JSP846NineLarge.C272P.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T06:56:52.082052+00:00",
+  "module": "SevenDecodeNat",
+  "source_sha256": "e77c6525acc4243e59dcc6df6810747c65a5125da22188864bc3ba721868100e",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 10.96867594899959,
+  "stdout": "'JSP846Standard.sevenDecodeNat_toNat' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

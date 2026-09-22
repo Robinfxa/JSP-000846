@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:31:36.652351+00:00",
+  "module": "SixCapR140Fixed",
+  "source_sha256": "ba430894fcca604b84a7ce880196f3fd9c2c92b4b1daeeace517e8eaa870f66c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 27.613591088011162,
+  "stdout": "'JSP846Six.R140Fixed.bad_not_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Six.R140Fixed.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,39 @@
+{
+  "status": "FULL_FORMAL_PROOF_COMPILED_AND_PERSISTED",
+  "statement": "JSP846Standard.exact_minimum_41_47 : JSP846Standard.HasExactMinimum 47",
+  "mathematical_interpretation": "m(41) = 47",
+  "lean_version": "4.35.0-rc2",
+  "root_source_sha256": "66331ff78268997fb967e907b56da3e026715acefa01f77da7af76d48d35ea3d",
+  "root_compile_exit": 0,
+  "root_compile_timed_out": false,
+  "root_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "persisted_replay_exit": 0,
+  "persisted_replay_seconds": 52.389441223000176,
+  "persisted_audit_sha256": "d90e30b2c84dabc8c69b5ba50ec1a035eb043a6e32766bbb66e2857e3bc3acb7",
+  "source_modules": 3574,
+  "olean_modules": 3574,
+  "missing_olean_modules": [],
+  "unresolved_local_imports": [],
+  "system_imports_not_copied": [
+    "Init.Data.Nat.Bitwise.Lemmas"
+  ],
+  "tripwire_hits": [],
+  "proof_scope": {
+    "endpoint_classes_closed": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "literal_models_excluded": 1236,
+    "t10_labelled_matchings": 945,
+    "t10_dihedral_representatives": 79
+  }
+}

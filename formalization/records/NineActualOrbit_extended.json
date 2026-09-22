@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T20:06:19.359542+00:00",
+  "module": "NineActualOrbit",
+  "source_sha256": "069642958e5de78c682d24f8fd8db49066545a6f5bf30a001bac3faf93b4b6ef",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 15.42977815499762,
+  "stdout": "'JSP846Standard.nine_actual_candidate_orbit' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-17T23:54:18.163002+00:00",
+  "module": "ChordCoordinates",
+  "source_sha256": "bfadb6684fa5733f51ef5a132494be45a8c19bd8aa3b6452e22ec93db711fc99",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 40.84581900199919,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-compression-o282684o/ChordCoordinates.lean:115:4: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp only [show 40 + 1 = 41 from rfl, hlast, p.getVert_zero]\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'JSP846Standard.compressedChords_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.compressedChords_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.compressedChords_no_loops' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.compressedChords_incident' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.compressedChords_adjacent_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

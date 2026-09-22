@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T13:59:57.249354+00:00",
+  "module": "AutoLargeC262",
+  "source_sha256": "fa07aaf8db544e6496d16f7fb5e3e0298ed4a6f4b3dc511f11c2ca2dbeadef36",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 49.698194229014916,
+  "stdout": "'JSP846AutoLarge.C262.table_exact' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846AutoLarge.C262.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-22T04:18:04.833888+00:00",
+  "exit": 0,
+  "seconds": 52.389441223000176,
+  "stdout": "JSP846Standard.exact_minimum_41_47 : JSP846Standard.HasExactMinimum 47\n'JSP846Standard.exact_minimum_41_47' depends on axioms: [propext, Classical.choice, Quot.sound]\n'final_type_check' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "audit_sha256": "d90e30b2c84dabc8c69b5ba50ec1a035eb043a6e32766bbb66e2857e3bc3acb7"
+}

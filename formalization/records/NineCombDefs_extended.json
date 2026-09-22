@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T12:57:28.917999+00:00",
+  "module": "NineCombDefs",
+  "source_sha256": "5c75ec97e7600a1f258e47bb9ea06e70a8123126e2867e97fcba183ba669d65a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 30.78693068001303,
+  "stdout": "",
+  "stderr": "",
+  "olean_exists": true
+}

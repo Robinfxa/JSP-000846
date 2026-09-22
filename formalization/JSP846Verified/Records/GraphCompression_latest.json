@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T00:05:51.828785+00:00",
+  "module": "GraphCompression",
+  "source_sha256": "1a353785919d1d15341b53ac6e604c798f049cbae772c07cd66a93b0d83bc6b0",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 20.394901687999663,
+  "stdout": "'JSP846Standard.pancyclic_46_compression' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

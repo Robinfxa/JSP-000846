@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T04:11:54.638725+00:00",
+  "module": "DirectParityCount",
+  "source_sha256": "d9c1b6bceeda7f698ebf50dc7c8dc05cfc34db85db54f799e167a51d8cf6ae6c",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 50.03593157200521,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/DirectParityCount.lean:47:15: warning: This simp argument is unused:\n  Fin.val_mk\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [ite_true]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/DirectParityCount.lean:98:8: warning: `simp` already closes the goal\n\nHint: Use `simp` instead of `simpa`:\n  [apply] simp [Active] at hh\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'JSP846Standard.degree_card_le_direct' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

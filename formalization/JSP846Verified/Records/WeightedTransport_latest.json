@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-18T03:46:31.706794+00:00",
+  "module": "WeightedTransport",
+  "source_sha256": "e9873ee0fb0238744b16a45b71d5b35604d86913e94a8b641774fc876eef1d78",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 27.903068006999092,
+  "stdout": "'JSP846Standard.CycleRelabel.weights_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.CycleRelabel.feasible_map' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.CycleRelabel.exclusion_pullback' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.no_model_of_small_table' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

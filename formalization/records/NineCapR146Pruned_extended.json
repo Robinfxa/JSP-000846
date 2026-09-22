@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T12:52:58.503383+00:00",
+  "module": "NineCapR146Pruned",
+  "source_sha256": "60c8dca688f46dba1059b7b823ed6a5c5129d94c16cde88629f1a2534f9b91dc",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 25.225009894988034,
+  "stdout": "'JSP846Nine.R146P.infeasible' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

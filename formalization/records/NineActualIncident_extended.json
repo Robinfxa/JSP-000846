@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T18:11:00.004580+00:00",
+  "module": "NineActualIncident",
+  "source_sha256": "a7e73bc102c96807c78dc15caf5276293cf5d8d73310ee652c5e341cbd38d78f",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 7.594345279008849,
+  "stdout": "'JSP846Standard.nineToNat_incident' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

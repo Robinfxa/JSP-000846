@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T07:49:35.703373+00:00",
+  "module": "SevenDecodePermEq",
+  "source_sha256": "2df715f502ffbe2d28f7b9a3cbefdbbd211e73c74a9dd791200b67c9f8cbfd19",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 8.349539488990558,
+  "stdout": "'JSP846Standard.sevenDecodeNat_perm' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

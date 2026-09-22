@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T11:17:28.197905+00:00",
+  "module": "EightTopSplit_25_23",
+  "source_sha256": "dbc384ac970f201af4b937c63e482ab24e9ef82d90d59aa78d5a20d324f95d0a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 82.25842507797643,
+  "stdout": "'JSP846Standard.eightTop_25_23_orbit_split' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

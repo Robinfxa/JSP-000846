@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T05:16:11.567955+00:00",
+  "module": "SixIndexActualBridge",
+  "source_sha256": "97b235e8dd879bf5802430838f886e9fda0f41ae3dd0ffcbdf14107b6143c3cf",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 52.426730412000325,
+  "stdout": "'JSP846Standard.six_mask_candidate_of_index' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_index_orbit_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_edge_perm' depends on axioms: [propext, Quot.sound]\n'JSP846Standard.six_decode_perm' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.six_actual_orbit_complete' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

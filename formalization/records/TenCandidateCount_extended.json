@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T21:44:41.299111+00:00",
+  "module": "TenCandidateCount",
+  "source_sha256": "b89bc97f20c6b1c170fd29b60277d690b25056eba4f41f12c48d50738ed80b0b",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 38.88776496000355,
+  "stdout": "/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/TenCandidateCount.lean:52:24: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d\u0335i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335d\u0332i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/TenCandidateCount.lean:63:27: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d\u0335i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335d\u0332i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n/private/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/TenCandidateCount.lean:63:39: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead\n\nHint: Replace the deprecated name:\n  d\u0335i\u0335f\u0335_\u0335p\u0335o\u0335s\u0335d\u0332i\u0332t\u0332e\u0332_\u0332e\u0332q\u0332_\u0332l\u0332e\u0332f\u0332t\u0332\n'JSP846Standard.tenPermSet_card' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenPermOf_injOn' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenCandidateSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

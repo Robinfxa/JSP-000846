@@ -1,0 +1,87 @@
+import NineTop_28_03
+import NineTop_28_04
+import NineTop_28_05
+import NineTop_28_06
+import NineTop_28_07
+import NineTop_28_08
+import NineTop_28_09
+import NineTop_28_10
+import NineTop_28_11
+import NineTop_28_12
+import NineTop_28_13
+import NineTop_28_14
+import NineTop_28_15
+import NineTop_28_16
+import NineTop_28_17
+import NineTop_28_18
+import NineTop_28_19
+import NineTop_28_20
+import NineTop_28_21
+import NineTopSplit_28_22
+import NineTopSplit_28_23
+import NineTopSplit_28_24
+import NineTopSplit_28_25
+import NineTopSplit_28_26
+import NineTopSplit_28_27
+set_option autoImplicit false
+namespace JSP846Standard
+theorem nineTopR28_orbit (S : Finset Nat) (s : Nat)
+    (hs3 : 3 ≤ s) (hsr : s < 28)
+    (hS : S ∈ combTop2 28 s) (hinc : nineIncidentNat S) :
+    ∃ tag : Fin 18, ∃ rep : Fin 224,
+      S.image (ninePermNat tag) = nineRepAt rep := by
+  have hs : s = 3 ∨ s = 4 ∨ s = 5 ∨ s = 6 ∨ s = 7 ∨ s = 8 ∨ s = 9 ∨ s = 10 ∨ s = 11 ∨ s = 12 ∨ s = 13 ∨ s = 14 ∨ s = 15 ∨ s = 16 ∨ s = 17 ∨ s = 18 ∨ s = 19 ∨ s = 20 ∨ s = 21 ∨ s = 22 ∨ s = 23 ∨ s = 24 ∨ s = 25 ∨ s = 26 ∨ s = 27 := by omega
+  rcases hs with h3 | h4 | h5 | h6 | h7 | h8 | h9 | h10 | h11 | h12 | h13 | h14 | h15 | h16 | h17 | h18 | h19 | h20 | h21 | h22 | h23 | h24 | h25 | h26 | h27
+  · subst s
+    exact nineTop_28_3_orbit S hS hinc
+  · subst s
+    exact nineTop_28_4_orbit S hS hinc
+  · subst s
+    exact nineTop_28_5_orbit S hS hinc
+  · subst s
+    exact nineTop_28_6_orbit S hS hinc
+  · subst s
+    exact nineTop_28_7_orbit S hS hinc
+  · subst s
+    exact nineTop_28_8_orbit S hS hinc
+  · subst s
+    exact nineTop_28_9_orbit S hS hinc
+  · subst s
+    exact nineTop_28_10_orbit S hS hinc
+  · subst s
+    exact nineTop_28_11_orbit S hS hinc
+  · subst s
+    exact nineTop_28_12_orbit S hS hinc
+  · subst s
+    exact nineTop_28_13_orbit S hS hinc
+  · subst s
+    exact nineTop_28_14_orbit S hS hinc
+  · subst s
+    exact nineTop_28_15_orbit S hS hinc
+  · subst s
+    exact nineTop_28_16_orbit S hS hinc
+  · subst s
+    exact nineTop_28_17_orbit S hS hinc
+  · subst s
+    exact nineTop_28_18_orbit S hS hinc
+  · subst s
+    exact nineTop_28_19_orbit S hS hinc
+  · subst s
+    exact nineTop_28_20_orbit S hS hinc
+  · subst s
+    exact nineTop_28_21_orbit S hS hinc
+  · subst s
+    exact nineTop_28_22_orbit_split S hS hinc
+  · subst s
+    exact nineTop_28_23_orbit_split S hS hinc
+  · subst s
+    exact nineTop_28_24_orbit_split S hS hinc
+  · subst s
+    exact nineTop_28_25_orbit_split S hS hinc
+  · subst s
+    exact nineTop_28_26_orbit_split S hS hinc
+  · subst s
+    exact nineTop_28_27_orbit_split S hS hinc
+
+end JSP846Standard
+#print axioms JSP846Standard.nineTopR28_orbit

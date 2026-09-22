@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-17T23:56:48.252306+00:00",
+  "module": "WeightedSkeleton",
+  "source_sha256": "593b0047a1a26902426aa1b6d4344ef043501ed341b7e0802d537f4e7398256a",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 32.871089664000465,
+  "stdout": "'JSP846Standard.WeightedSkeleton.weight_positive' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.WeightedSkeleton.weight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.WeightedSkeleton.weight_chord_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.pancyclic_46_weighted_skeleton' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "olean_exists": true
+}

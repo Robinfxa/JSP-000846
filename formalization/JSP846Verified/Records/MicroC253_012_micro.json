@@ -1,0 +1,15 @@
+{
+  "case": 253,
+  "module": "MicroC253_012",
+  "final": false,
+  "bytes": 5889,
+  "source_sha256": "3ba3763ed484ad4af40ee21d22cd2cc9f0ed75a7ded66c70a3a36b07b85dfd7f",
+  "certificate_sha256": "3098165cbd0b0be1652073de7c9b71dad9a2911d5e96aba4ce0e56432b86be3c",
+  "utc": "2026-09-18T06:20:02.355342+00:00",
+  "exit": 0,
+  "timed_out": false,
+  "seconds": 23.55871849200048,
+  "stdout": "",
+  "stderr": "",
+  "accepted": true
+}
