@@ -1293,8 +1293,8 @@
     },
     "TenAllCodeChain": {
       "source": "TenAllCodeChain.lean",
-      "source_sha256": "e7cbf67c77172115b3d0a5ec7204b64d3471d5e5d3d72f4fd0fc6eaa4cdef760",
-      "source_bytes": 1653,
+      "source_sha256": "02eba9653217ac9e4b51523983dcbafcc6524d682ea8932eac7205184b582255",
+      "source_bytes": 3399,
       "actual_import_root_index": 0,
       "actual_olean_original_path": "/var/folders/sr/2dx9l22d3c5637ygcxqfpd880000gn/T/jsp846-degreecapacity-nduk3vtu/TenAllCodeChain.olean",
       "actual_olean_bytes": 83640,
@@ -1346,7 +1346,7 @@
           "dest": "records/TenAllCodeChain_extended.json",
           "exit": 0,
           "timed_out": false,
-          "source_sha256": "e7cbf67c77172115b3d0a5ec7204b64d3471d5e5d3d72f4fd0fc6eaa4cdef760",
+          "source_sha256": "02eba9653217ac9e4b51523983dcbafcc6524d682ea8932eac7205184b582255",
           "success": null
         }
       ]

@@ -1,4 +1,4 @@
-> Publication context (2026-09-22 UTC, v0.2.1-formal-proof): 本仓库已于 2026 年 9 月 22 日完成有限定理 $m(41)=47$ 的完整 Lean 4 形式化证明（根定理 `JSP846Standard.exact_minimum_41_47`，闭包公理仅含 `propext`, `Classical.choice`, `Quot.sound`，无 `sorryAx`）。**特别郑重声明：有限定理 Lean 已完成，但不等于解决完整 JSP-000846 / Erdős #1016 渐近猜想，亦不主张任何奖项申报。** 原始 2026-09-17 阶段性报告保留如下供溯源。复验命令与形式化依赖请参见 [formalization/README.md](formalization/README.md)。
+> Publication context (2026-09-24 UTC, v0.2.2-formal-proof): 本仓库已于 2026 年 9 月 24 日完成有限定理 $m(41)=47$ 的完整 Lean 4 形式化源码闭合与复验（根定理 `JSP846Standard.exact_minimum_41_47`，闭包公理仅含 `propext`, `Classical.choice`, `Quot.sound`，无 `sorryAx`）。**特别郑重声明：有限定理 Lean 已完成，但不等于解决完整 JSP-000846 / Erdős #1016 渐近猜想，亦不主张任何奖项申报。** 原始 2026-09-17 阶段性报告保留如下供溯源。复验命令与形式化依赖请参见 [formalization/README.md](formalization/README.md)。
 
 # JSP-000846：41 点有限目标的求解结果
 

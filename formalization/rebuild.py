@@ -41,7 +41,7 @@ def is_memory_exhaustion(returncode, stdout, stderr):
     ]
     if any(re.search(p, combined) for p in patterns):
         return True
-    if returncode in (-9, 137):
+    if returncode in (-9, 137, -6, 134):
         return True
     return False
 
@@ -49,6 +49,7 @@ def main():
     parser = argparse.ArgumentParser(description="Deterministic memory-aware parallel rebuild driver for JSP-000846 Lean 4 formalization.")
     parser.add_argument('--full', action='store_true', help="Execute rebuild")
     parser.add_argument('--force', action='store_true', help="Rebuild all modules even if .olean already exists")
+    parser.add_argument('--clean', action='store_true', help="Delete custom .olean and .ilean artifacts before rebuilding (clean build)")
     parser.add_argument('--project', default=str(HERE), help="Path to formalization project root (default: current directory)")
     parser.add_argument('--memory-mb', type=int, default=3072, help="Memory limit in MB per lean process in parallel pass (default: 3072)")
     parser.add_argument('--retry-memory-mb', type=int, default=8192, help="Memory limit in MB for serial retry pass (default: 8192)")
@@ -82,25 +83,59 @@ def main():
     print(f"Parallel Workers: {effective_jobs} (memory limit: {args.memory_mb} MB)")
     print(f"Serial Retry:     1 worker (memory limit: {args.retry_memory_mb} MB)")
     print(f"Force Rebuild:    {args.force}")
+    print(f"Clean Build:      {args.clean}")
     print("-----------------------------------------------------")
+
+    # Clean build: delete custom .olean and .ilean artifacts if requested
+    if args.clean:
+        print(f"Clean build requested: deleting custom .olean and .ilean artifacts for {len(modules_to_build)} modules...")
+        cleaned_count = 0
+        for m in modules_to_build:
+            for ext in ('.olean', '.ilean'):
+                p = LEAN / f"{m}{ext}"
+                if p.exists():
+                    try:
+                        p.unlink()
+                        cleaned_count += 1
+                    except Exception:
+                        pass
+        print(f"Cleaned {cleaned_count} artifact file(s).\n")
 
     # Compute dependency DAG levels for safe parallel execution
     deps = {}
+    import_pattern = re.compile(r'^\s*import\s+([A-Za-z0-9_]+)', re.MULTILINE)
     for mod in modules_to_build:
         src = LEAN / f"{mod}.lean"
         if not src.exists():
             print(f"ERROR: missing source file {src}", file=sys.stderr)
             sys.exit(1)
-        content = src.read_text()
-        imps = [m for m in re.findall(r'^import\s+([A-Za-z0-9_]+)', content, re.MULTILINE) if m in custom_mods]
+        raw_content = src.read_text()
+        # Strip block comments /- ... -/ to avoid matching commented-out imports
+        content = re.sub(r'/-[\s\S]*?-/', '', raw_content)
+        imps = [m for m in import_pattern.findall(content) if m in custom_mods]
         deps[mod] = set(imps)
 
+    # Topologically sound level computation via memoized DFS with cycle detection
     levels = {}
-    for mod in modules_to_build:
-        if not deps[mod]:
-            levels[mod] = 0
+    visiting = set()
+
+    def compute_level(m):
+        if m in levels:
+            return levels[m]
+        if m in visiting:
+            print(f"ERROR: Cyclic dependency detected involving {m}", file=sys.stderr)
+            sys.exit(1)
+        visiting.add(m)
+        if not deps[m]:
+            lvl = 0
         else:
-            levels[mod] = max(levels[d] for d in deps[mod] if d in levels) + 1 if any(d in levels for d in deps[mod]) else 0
+            lvl = max(compute_level(d) for d in deps[m]) + 1
+        visiting.remove(m)
+        levels[m] = lvl
+        return lvl
+
+    for mod in modules_to_build:
+        compute_level(mod)
 
     from collections import defaultdict
     level_groups = defaultdict(list)
@@ -133,6 +168,9 @@ def main():
         try:
             stdout, stderr = proc.communicate()
             dur = time.monotonic() - t_start
+            if proc.returncode != 0:
+                out.unlink(missing_ok=True)
+                (LEAN / f"{mod}.ilean").unlink(missing_ok=True)
             return proc.returncode, dur, stdout, stderr
         finally:
             with active_procs_lock:

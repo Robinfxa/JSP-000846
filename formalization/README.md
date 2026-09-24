@@ -46,7 +46,7 @@ for Erdős Problem #1016 / JSP-000846 (minimal edge count of a 41-vertex pancycl
 ## 3. Toolchain and Locked Dependencies
 
 - **Lean Toolchain:** `leanprover/lean4:v4.35.0-rc2` (locked in `lean-toolchain`)
-- **Lake Configuration:** `lakefile.toml` (`version = "0.2.1"`)
+- **Lake Configuration:** `lakefile.toml` (`version = "0.2.2"`)
 - **Mathlib Revision:** `v4.35.0-rc2` (Git rev: `065356127b1dc0016f66b7283ce0ce2c4055aa55`, locked in `lake-manifest.json` along with 8 transitive dependencies: `plausible`, `LeanSearchClient`, `importGraph`, `proofwidgets`, `aesop`, `Qq`, `batteries`, `Cli`).
 
 ---
@@ -56,7 +56,7 @@ for Erdős Problem #1016 / JSP-000846 (minimal edge count of a 41-vertex pancycl
 ```text
 formalization/
 ├── lean-toolchain            # Lean version pin (v4.35.0-rc2)
-├── lakefile.toml             # Lake package manifest (v0.2.1)
+├── lakefile.toml             # Lake package manifest (v0.2.2)
 ├── lake-manifest.json        # Pinned transitive dependency lockfile
 ├── Formalization.lean        # Default Lake target
 ├── Formalization/
@@ -120,7 +120,7 @@ bash replay.sh
 `rebuild.py` uses dynamic toolchain resolution, max 3 parallel workers at 3072 MB, automatic serial single-process retry at 8192 MB for memory-intensive modules (such as `C255.lean`), and DAG level scheduling to compile all 3,574 modules in exact topological dependency order into `JSP846Verified/LeanSrc/`.
 
 #### Route B: Fast Replay via Precompiled Release Closure
-Download `JSP000846_Lean_FULL_m41_eq_47_20260922.zip` from GitHub Release `v0.2.1-formal-proof`, extract into `formalization/`, and execute:
+Download `JSP000846_Lean_FULL_m41_eq_47_20260922.zip` from GitHub Release `v0.2.2-formal-proof`, extract into `formalization/`, and execute:
 ```bash
 bash replay.sh
 ```

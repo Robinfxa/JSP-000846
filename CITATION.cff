@@ -5,10 +5,10 @@ title: "Machine-checked Lean 4 formalization of m(41)=47 for minimal pancyclic g
 authors:
   - name: "Robinfxa"
     website: "https://github.com/Robinfxa"
-version: "v0.2.1-formal-proof"
-date-released: 2026-09-22
+version: "v0.2.2-formal-proof"
+date-released: 2026-09-24
 repository-code: "https://github.com/Robinfxa/JSP-000846"
-url: "https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.1-formal-proof"
+url: "https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.2-formal-proof"
 abstract: >-
   Machine-checked Lean 4 formal verification of the exact finite value m(41)=47
   for minimal pancyclic graphs (Erdős Problem #1016 / JSP-000846). Contains the

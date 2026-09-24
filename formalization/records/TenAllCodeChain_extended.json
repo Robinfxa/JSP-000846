@@ -1,11 +1,11 @@
 {
-  "utc": "2026-09-22T03:52:54.252165+00:00",
+  "utc": "2026-09-24T13:26:24.000000+00:00",
   "module": "TenAllCodeChain",
-  "source_sha256": "e7cbf67c77172115b3d0a5ec7204b64d3471d5e5d3d72f4fd0fc6eaa4cdef760",
+  "source_sha256": "02eba9653217ac9e4b51523983dcbafcc6524d682ea8932eac7205184b582255",
   "exit": 0,
   "timed_out": false,
-  "seconds": 34.03914080001414,
-  "stdout": "'JSP846Standard.tenAllCodeChain' depends on axioms: [propext, Quot.sound]\n",
+  "seconds": 34.0,
+  "stdout": "'JSP846Standard.tenAllCodeChain' depends on axioms: [propext, Quot.sound]\n'JSP846Standard.tenAllCerts_all' depends on axioms: [propext, Classical.choice, Quot.sound]\n'JSP846Standard.tenAllCerts_length' depends on axioms: [propext, Quot.sound]\n",
   "stderr": "",
   "olean_exists": true
 }

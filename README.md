@@ -131,7 +131,7 @@ No license file was supplied in the original package, and ownership/redistributi
 
 ## Citation and public record
 
-- Formal verification correction release date (UTC): **2026-09-22**. Version: **v0.2.1-formal-proof**.
+- Formal verification correction release date (UTC): **2026-09-24**. Version: **v0.2.2-formal-proof**.
 - Initial research release date (UTC): **2026-09-17**. Version: **v0.1.0-research-result**.
 
-Use [CITATION.cff](CITATION.cff), the exact Git commit, and the [versioned GitHub Release](https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.1-formal-proof) when citing this finite result. GitHub's release publication time records this publication event; it does not establish global mathematical priority. The commit identifier and SHA-256 manifest identify the exact published content.
+Use [CITATION.cff](CITATION.cff), the exact Git commit, and the [versioned GitHub Release](https://github.com/Robinfxa/JSP-000846/releases/tag/v0.2.2-formal-proof) when citing this finite result. GitHub's release publication time records this publication event; it does not establish global mathematical priority. The commit identifier and SHA-256 manifest identify the exact published content.
